@@ -1,6 +1,9 @@
-import { describe, it, expect } from 'vitest';
+import { describe, it, expect, vi } from 'vitest';
 import { getIcon } from './icons';
 import path from 'path';
+import * as languages from './languages';
+
+vi.mock('./languages');
 
 describe('getIcon', () => {
   it('should return file name icon match', () => {
@@ -59,5 +62,56 @@ describe('getIcon', () => {
 
   it('should handle config files correctly', () => {
     expect(getIcon('.eslintrc.json')).toBe('eslint');
+  });
+
+  it('should return expanded folder icon for expanded folders', () => {
+    expect(getIcon('src', { isFolder: true, isExpanded: true })).toBe('folder-src-open');
+  });
+
+  it('should return icon based on file extension when filename doesn\'t match', () => {
+    expect(getIcon('unknown.ts')).toBe('typescript');
+  });
+  it('should return language icon when no other matches are found', () => {
+    vi.mocked(languages.getLanguage).mockReturnValue({
+      language_id: 999,
+      name: 'CustomLang',
+      type: 'programming',
+      tm_scope: 'source.customlang',
+      ace_mode: 'text',
+      icons: ['custom-lang-icon']
+    });
+    expect(getIcon('unknown.customlang')).toBe('custom-lang-icon');
+  });
+
+  it('should return default file icon when no matches are found and language has no icon', () => {
+    vi.mocked(languages.getLanguage).mockReturnValue({
+      language_id: 1000,
+      name: 'NoIconLang',
+      type: 'programming',
+      tm_scope: 'source.noiconlang',
+      ace_mode: 'text',
+      icons: []
+    });
+    expect(getIcon('unknown.nolangicon')).toBe('file');
+  });
+
+  it('should handle case insensitivity for file names', () => {
+    expect(getIcon('dockerfile')).toBe('docker');
+    expect(getIcon('Dockerfile')).toBe('docker');
+    expect(getIcon('DOCKERFILE')).toBe('docker');
+  });
+
+  it('should handle case insensitivity for folder names', () => {
+    expect(getIcon('node_modules', { isFolder: true })).toBe('folder-node');
+    expect(getIcon('Node_Modules', { isFolder: true })).toBe('folder-node');
+    expect(getIcon('NODE_MODULES', { isFolder: true })).toBe('folder-node');
+  });
+
+  it('should return light theme icon when available', () => {
+    expect(getIcon('example.js', { isLight: true })).toBe('javascript_light');
+  });
+
+  it('should fallback to dark theme icon when light theme icon is not available', () => {
+    expect(getIcon('example.rs', { isLight: true })).toBe('rust');
   });
 });
