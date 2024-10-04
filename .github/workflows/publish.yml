@@ -23,7 +23,7 @@ jobs:
       - name: Install dependencies
         run: pnpm install
       - name: Increment version
-        run: pnpm run version:patch
+        run: pnpm version patch
       - name: Commit package.json changes
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
