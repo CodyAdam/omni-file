@@ -22,12 +22,13 @@ jobs:
           registry-url: 'https://registry.npmjs.org'
       - name: Install dependencies
         run: pnpm install
-      - name: Increment version
-        run: pnpm version patch
-      - name: Commit package.json changes
+      - name: Configure Git
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
+      - name: Increment version
+        run: |
+          pnpm version patch
           git add package.json
           git diff --quiet && git diff --staged --quiet || git commit -m "⬆️ Bump version"
       - name: Push changes
