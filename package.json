@@ -43,8 +43,7 @@
   "license": "MIT",
   "author": "Cody Adam",
   "scripts": {
-    "build": "tsup src/index.ts --format cjs,esm --dts --publicDir public",
-    "build:watch": "tsup src/icons.ts --format cjs,esm --dts --watch --publicDir public",
+    "build": "tsup src/index.ts --format cjs,esm --dts --publicDir public --minify",
     "test": "vitest run",
     "test:coverage": "vitest run --coverage",
     "update-data": "tsx scripts/run-all.ts",

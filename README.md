@@ -1,8 +1,8 @@
 # omni-file
 
-[![Publish Package to npm](https://github.com/CodyAdam/omni-file/actions/workflows/publish.yml/badge.svg)](https://www.npmjs.com/package/omni-file)
+[![npm package](https://img.shields.io/npm/v/omni-file.svg)](https://www.npmjs.com/package/omni-file)
 
-Omni-file is a comprehensive file information extractor that provides language, icon, type, and MIME information for any file based on its name or extension.
+Omni-file is a comprehensive file information extractor that provides language, icon, type, and MIME information for any file based on its name or extension. With **over 1000 icons** and only **79.4 kB gzipped**, it's both **powerful and lightweight**!
 
 **Example with language:**
 
@@ -52,8 +52,9 @@ const svgUrl = `node_modules/omni-file/icons/${icon}.svg`;
 
 - Extract filename or extension smartly
 - Determine most appropriate icons for file types using [Material Icon Theme](https://github.com/material-extensions/vscode-material-icon-theme)
-- Icons also cover folder names
+- **Over 1000 icons** covering a wide range of file types and folder names
 - Always up-to-date with the latest GitHub Linguist data and Material Icons through continuous integration
+- **Lightweight: only 79.4 kB gzipped**
 
 ## Installation
 
