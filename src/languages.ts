@@ -6,6 +6,7 @@ import {
   FileNamesMapJSON,
   LanguageData,
   LanguagesWithIconsJSON,
+  LanguageWithIconsData,
 } from "./json-types";
 import { getBaseFilenameFromRelativePath, getExtensionsFromRelativePath } from "./utils/filePath";
 
@@ -21,9 +22,9 @@ export const fileNamesMap = fileNamesMapRaw as FileNamesMapJSON;
  * trying longer extensions before shorter ones.
  *
  * @param filename - The name of the file to look up (can be a relative path).
- * @returns The LanguageData object if a match is found, undefined otherwise.
+ * @returns The LanguageWithIconsData object if a match is found, undefined otherwise.
  */
-export function getLanguage(filePath: string): LanguageData | undefined {
+export function getLanguage(filePath: string): LanguageWithIconsData | undefined {
   const fileName = getBaseFilenameFromRelativePath(filePath);
 
   // 1. find by filename
