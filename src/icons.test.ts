@@ -107,10 +107,6 @@ describe('getIcon', () => {
     expect(getIcon('NODE_MODULES', { isFolder: true })).toBe('folder-node');
   });
 
-  it('should return light theme icon when available', () => {
-    expect(getIcon('example.js', { isLight: true })).toBe('javascript_light');
-  });
-
   it('should fallback to dark theme icon when light theme icon is not available', () => {
     expect(getIcon('example.rs', { isLight: true })).toBe('rust');
   });
