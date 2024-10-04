@@ -2,7 +2,7 @@
 
 Omni-file is a comprehensive file information extractor that provides language, icon, type, and MIME information for any file based on its name or extension.
 
-Example with language:
+**Example with language:**
 
 ```typescript
 import { getLanguage } from "omni-file";
@@ -10,7 +10,7 @@ import { getLanguage } from "omni-file";
 console.log(getLanguage("folder/example.ts"));
 ```
 
-Output:
+**Output:**
 
 ```json
 {
@@ -29,7 +29,7 @@ Output:
 }
 ```
 
-Example with icon:
+**Example with icon:**
 
 ```tsx
 import { getIcon } from "omni-file";
@@ -40,7 +40,7 @@ const svgUrl = `node_modules/omni-file/icons/${icon}.svg`;
 <img src={svgUrl} alt={icon} />;
 ```
 
-Output:
+**Output:**
 
 ![TypeScript](./public/icons/typescript.svg)
 
