@@ -2,6 +2,10 @@
   "name": "omni-file",
   "version": "1.1.0",
   "description": "Map file extensions to languages using GitHub Linguist data (Always up to date)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CodyAdam/omni-file.git"
+  },
   "type": "module",
   "main": "dist/index.js",
   "module": "dist/index.mjs",

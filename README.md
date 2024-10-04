@@ -1,5 +1,7 @@
 # omni-file
 
+[![Publish Package to npm](https://github.com/CodyAdam/omni-file/actions/workflows/publish.yml/badge.svg)](https://www.npmjs.com/package/omni-file)
+
 Omni-file is a comprehensive file information extractor that provides language, icon, type, and MIME information for any file based on its name or extension.
 
 **Example with language:**
