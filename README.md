@@ -31,10 +31,13 @@ Output:
 
 Example with icon:
 
-```typescript
+```tsx
 import { getIcon } from "omni-file";
 
-console.log(getIcon("folder/example.ts"));
+const icon = getIcon("folder/example.ts"); // "typescript"
+const svgUrl = `node_modules/omni-file/icons/${icon}.svg`;
+
+<img src={svgUrl} alt={icon} />;
 ```
 
 Output:
