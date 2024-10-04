@@ -73,6 +73,34 @@ yarn add omni-file
 
 ## Examples
 
+### Examples of `getIcon`
+
+```typescript
+import { getIcon } from "omni-file";
+
+console.log(getIcon("example.js")); // Output: 'javascript'
+console.log(getIcon("styles.css")); // Output: 'css'
+console.log(getIcon("data.json")); // Output: 'json'
+console.log(getIcon("package.json")); // Output: 'nodejs'
+console.log(getIcon("Dockerfile")); // Output: 'docker'
+console.log(getIcon(".gitignore")); // Output: 'git'
+console.log(getIcon("src", { isFolder: true })); // Output: 'folder-src'
+console.log(getIcon("node_modules", { isFolder: true })); // Output: 'folder-node'
+console.log(getIcon("tests", { isFolder: true, isExpanded: true })); // Output: 'folder-test-open'
+console.log(getIcon("vercel.json", { isLight: true })); // Output: 'vercel_light'
+console.log(getIcon("example.test.js")); // Output: 'test-js'
+console.log(getIcon("component.spec.ts")); // Output: 'test-ts'
+console.log(getIcon(path.join("src", "components", "Button.tsx"))); // Output: 'react_ts'
+console.log(getIcon(path.join("tests", "unit", "utils.test.js"))); // Output: 'test-js'
+console.log(getIcon(".eslintrc.json")); // Output: 'eslint'
+console.log(getIcon(".prettierrc")); // Output: 'prettier'
+console.log(getIcon("tsconfig.json")); // Output: 'tsconfig'
+console.log(getIcon("README.md")); // Output: 'readme'
+console.log(getIcon("readme.md")); // Output: 'readme'
+console.log(getIcon("DockerFile")); // Output: 'docker'
+console.log(getIcon("dockerfile")); // Output: 'docker'
+```
+
 ### Example with language
 
 ```typescript
@@ -102,36 +130,7 @@ console.log(getLanguage("folder/example.ts"));
 
 > Note that you can also get icons from `getLanguage` by using `getLanguage(filename)?.icons` but the answer may be less accurate. (folder icons are not included this way)
 
-### Examples of getIcon
-
-```typescript
-import { getIcon } from "omni-file";
-
-console.log(getIcon("example.js")); // Output: 'javascript'
-console.log(getIcon("styles.css")); // Output: 'css'
-console.log(getIcon("data.json")); // Output: 'json'
-console.log(getIcon("package.json")); // Output: 'nodejs'
-console.log(getIcon("Dockerfile")); // Output: 'docker'
-console.log(getIcon(".gitignore")); // Output: 'git'
-console.log(getIcon("src", { isFolder: true })); // Output: 'folder-src'
-console.log(getIcon("node_modules", { isFolder: true })); // Output: 'folder-node'
-console.log(getIcon("tests", { isFolder: true, isExpanded: true })); // Output: 'folder-test-open'
-console.log(getIcon("vercel.json", { isLight: true })); // Output: 'vercel_light'
-console.log(getIcon("example.js", { isLight: true })); // Output: 'javascript_light'
-console.log(getIcon("example.test.js")); // Output: 'test-js'
-console.log(getIcon("component.spec.ts")); // Output: 'test-ts'
-console.log(getIcon(path.join("src", "components", "Button.tsx"))); // Output: 'react_ts'
-console.log(getIcon(path.join("tests", "unit", "utils.test.js"))); // Output: 'test-js'
-console.log(getIcon(".eslintrc.json")); // Output: 'eslint'
-console.log(getIcon(".prettierrc")); // Output: 'prettier'
-console.log(getIcon("tsconfig.json")); // Output: 'tsconfig'
-console.log(getIcon("README.md")); // Output: 'readme'
-console.log(getIcon("readme.md")); // Output: 'readme'
-console.log(getIcon("DockerFile")); // Output: 'docker'
-console.log(getIcon("dockerfile")); // Output: 'docker'
-```
-
-### Example implementation of getIcon
+### Example implementation of `getIcon`
 
 ```tsx
 import { getIcon } from "omni-file";
