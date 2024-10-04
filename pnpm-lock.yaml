@@ -7,10 +7,6 @@ settings:
 importers:
 
   .:
-    dependencies:
-      material-icon-theme:
-        specifier: ^5.11.1
-        version: 5.11.1
     devDependencies:
       '@types/js-yaml':
         specifier: ^4.0.9
@@ -24,6 +20,12 @@ importers:
       js-yaml:
         specifier: ^4.1.0
         version: 4.1.0
+      material-icon-theme:
+        specifier: ^5.11.1
+        version: 5.11.1
+      npm-version:
+        specifier: ^1.1.0
+        version: 1.1.0
       tsup:
         specifier: ^8.3.0
         version: 8.3.0(postcss@8.4.47)(tsx@4.19.1)(typescript@5.6.2)
@@ -819,6 +821,9 @@ packages:
     resolution: {integrity: sha512-S48WzZW777zhNIrn7gxOlISNAqi9ZC/uQFnRdbeIHhZhCA6UqpkOT8T1G7BvfdgP4Er8gF4sUbaS0i7QvIfCWw==}
     engines: {node: '>=8'}
 
+  npm-version@1.1.0:
+    resolution: {integrity: sha512-Fu4YHKSfwZKPlrTv+ddvBzWPo/pQprR/GSA9ttRW684LbsxucF3RxIxl29H5YUpONfZVzuXcoJy03ZxigLnHDA==}
+
   object-assign@4.1.1:
     resolution: {integrity: sha512-rJgTQnkUnH1sFw8yT6VSU3zD3sWmu6sZhIseY8VX+GRu3P6F7Fu+JNDoXfklElbLJSnc3FUQHVe4cU5hj+BcUg==}
     engines: {node: '>=0.10.0'}
@@ -904,6 +909,10 @@ packages:
   rollup@4.24.0:
     resolution: {integrity: sha512-DOmrlGSXNk1DM0ljiQA+i+o0rSLhtii1je5wgk60j49d1jHT5YYttBv1iWOnYSTG+fZZESUOSNiAl89SIet+Cg==}
     engines: {node: '>=18.0.0', npm: '>=8.0.0'}
+    hasBin: true
+
+  semver@3.0.1:
+    resolution: {integrity: sha512-MrF9mHWFtD/0eV4t3IheoXnGWTdw17axm5xqzOWyPsOMVnTtRAZT6uwPwslQXH5SsiaBLiMuu8NX8DtXWZfDwg==}
     hasBin: true
 
   semver@7.6.3:
@@ -1788,6 +1797,10 @@ snapshots:
     dependencies:
       path-key: 3.1.1
 
+  npm-version@1.1.0:
+    dependencies:
+      semver: 3.0.1
+
   object-assign@4.1.1: {}
 
   onetime@5.1.2:
@@ -1861,6 +1874,8 @@ snapshots:
       '@rollup/rollup-win32-ia32-msvc': 4.24.0
       '@rollup/rollup-win32-x64-msvc': 4.24.0
       fsevents: 2.3.3
+
+  semver@3.0.1: {}
 
   semver@7.6.3: {}
 

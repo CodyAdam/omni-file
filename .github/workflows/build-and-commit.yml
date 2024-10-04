@@ -1,12 +1,12 @@
-name: Publish Package to npm
+name: Build and Commit
 
 on:
-  release:
-    types: [created]
   workflow_dispatch:  # Allow manual triggering
+  schedule:
+    - cron: '0 0 * * 0'  # Run every Sunday at midnight UTC
 
 jobs:
-  build-and-publish:
+  build-and-commit:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -17,23 +17,22 @@ jobs:
         with:
           node-version: 20
           cache: 'pnpm'
-          registry-url: 'https://registry.npmjs.org'
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
-      - name: Increment version
-        run: pnpm run version:patch
-      - name: Commit package.json changes
+      - name: Update data
+        run: pnpm run update-data
+      - name: Build
+        run: pnpm run build
+      - name: Run tests
+        run: pnpm test
+      - name: Commit changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add package.json
-          git commit -m "⬆️ Bump version"
+          git add -A
+          git diff-index --quiet HEAD || git commit -m "🔁 Auto-update data and build"
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: ${{ github.ref }}
-      - name: Publish to npm
-        run: pnpm publish --access public --no-git-checks
-        env:
-          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
