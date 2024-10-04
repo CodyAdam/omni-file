@@ -1,0 +1,53 @@
+# Source files
+src/
+
+# Test files
+test/
+*.test.js
+*.spec.js
+
+# Configuration files
+tsconfig.json
+.eslintrc.json
+.prettierrc
+.github/
+.vscode/
+
+# Build tools
+tsup.config.ts
+
+# Development scripts
+scripts/
+
+# Git files
+.git/
+.gitignore
+
+# Editor files
+*.swp
+*.swo
+.DS_Store
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Coverage directory
+coverage/
+
+# Environment variables
+.env
+.env.*
+
+# Documentation files (if you don't want to include them in the package)
+docs/
+*.md
+!README.md
+
+# Other unnecessary files for the package
+.editorconfig
+.travis.yml
+.circleci/

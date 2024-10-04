@@ -42,7 +42,7 @@ const svgUrl = `node_modules/omni-file/icons/${icon}.svg`;
 
 **Output:**
 
-![TypeScript](./public/icons/typescript.svg)
+![TypeScript](https://github.com/CodyAdam/omni-file/raw/main/public/icons/typescript.svg)
 
 > It leverages GitHub Linguist data to ensure up-to-date and accurate file type detection and uses Material Icon Theme for icons.
 
