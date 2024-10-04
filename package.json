@@ -1,0 +1,35 @@
+{
+  "name": "omni-file",
+  "version": "1.0.0",
+  "description": "Map file extensions to languages using GitHub Linguist data (Always up to date)",
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "license": "MIT",
+  "author": "Cody Adam",
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts --publicDir public",
+    "build:watch": "tsup src/icons.ts --format cjs,esm --dts --watch --publicDir public",
+    "test": "vitest run",
+    "test:coverage": "vitest run --coverage",
+    "update-data": "tsx scripts/run-all.ts",
+    "postinstall": "pnpm run update-data"
+  },
+  "devDependencies": {
+    "@types/js-yaml": "^4.0.9",
+    "@types/node": "^22.7.4",
+    "@vitest/coverage-v8": "2.1.2",
+    "js-yaml": "^4.1.0",
+    "tsup": "^8.3.0",
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.2",
+    "vitest": "^2.1.2"
+  },
+  "dependencies": {
+    "material-icon-theme": "^5.11.1"
+  }
+}
