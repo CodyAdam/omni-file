@@ -7,8 +7,72 @@ import iconsLightRaw from "./data/icons-light.json";
 import { IconsJSON } from "./json-types";
 import { getLanguage } from "./languages";
 
-const icons = iconsRaw as IconsJSON;
-const iconsLight = iconsLightRaw as IconsJSON;
+export const icons = iconsRaw as IconsJSON;
+export const iconsLight = iconsLightRaw as IconsJSON;
+
+
+/**
+ * Retrieves a list of all icon names based on the provided options.
+ *
+ * @param opts - Optional configuration object
+ * @param opts.isLight - If true, use light theme icons
+ * @param opts.isExpanded - If true, include expanded folder icons
+ * @param opts.isFolder - If true, include folder-related icons
+ * @returns An array of unique icon names
+ */
+export function getIconList(opts?: {
+  isLight?: boolean;
+  isExpanded?: boolean;
+  isFolder?: boolean;
+}) {
+  if (!opts) {
+    const all = new Set<string>([
+      icons.file,
+      iconsLight.file,
+      icons.folder,
+      iconsLight.folder,
+      icons.folderExpanded,
+      iconsLight.folderExpanded,
+      ...Object.values(icons.fileNames),
+      ...Object.values(iconsLight.fileNames),
+      ...Object.values(icons.fileExtensions),
+      ...Object.values(iconsLight.fileExtensions),
+      ...Object.values(icons.folderNames),
+      ...Object.values(iconsLight.folderNames),
+      ...Object.values(icons.folderNamesExpanded),
+      ...Object.values(iconsLight.folderNamesExpanded),
+      ...Object.values(icons.languageIds),
+      ...Object.values(iconsLight.languageIds),
+    ]);
+    return Array.from(all);
+  }
+
+  const all = new Set<string>([
+    ...(opts.isLight ? [iconsLight.file] : [icons.file]),
+    ...(opts.isFolder
+      ? [
+          ...(opts.isLight ? [iconsLight.folder] : [icons.folder]),
+          ...(opts.isExpanded
+            ? opts.isLight
+              ? [iconsLight.folderExpanded]
+              : [icons.folderExpanded]
+            : []),
+        ]
+      : []),
+    ...Object.values(opts.isLight ? iconsLight.fileNames : icons.fileNames),
+    ...Object.values(opts.isLight ? iconsLight.fileExtensions : icons.fileExtensions),
+    ...(opts.isFolder
+      ? [
+          ...Object.values(opts.isLight ? iconsLight.folderNames : icons.folderNames),
+          ...(opts.isExpanded
+            ? Object.values(opts.isLight ? iconsLight.folderNamesExpanded : icons.folderNamesExpanded)
+            : []),
+        ]
+      : []),
+    ...Object.values(opts.isLight ? iconsLight.languageIds : icons.languageIds),
+  ]);
+  return Array.from(all);
+}
 
 /**
  * Retrieves the icon name associated with a given file path.
@@ -40,7 +104,11 @@ export function getIcon(
   }
 
   // 3. expanded folder name match
-  if (isFolder && isExpanded && iconsThemed.folderNamesExpanded[fileNameLower]) {
+  if (
+    isFolder &&
+    isExpanded &&
+    iconsThemed.folderNamesExpanded[fileNameLower]
+  ) {
     return iconsThemed.folderNamesExpanded[fileNameLower];
   }
 

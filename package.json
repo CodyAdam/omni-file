@@ -48,7 +48,6 @@
     "test": "vitest run",
     "test:coverage": "vitest run --coverage",
     "update-data": "tsx scripts/run-all.ts",
-    "postinstall": "pnpm run update-data",
     "prepublishOnly": "pnpm run update-data && pnpm run build && pnpm test"
   },
   "devDependencies": {
