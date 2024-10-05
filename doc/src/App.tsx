@@ -1,31 +1,22 @@
 import { useState } from "react";
-import {  } from "omni-file";
+import { getIcon } from "omni-file";
 
 function App() {
-  const [count, setCount] = useState(0);
-
+  const [filePath, setFilePath] = useState("src/App.tsx");
   return (
-    <>
-      <div>
-        <img
-          src={"/icons/typescript.svg"}
-          className="logo react"
-          alt="React logo"
-        />
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    <div className="flex flex-col gap-4 max-w-sm mx-auto p-8">
+      <input
+        type="text"
+        value={filePath}
+        onChange={(e) => setFilePath(e.target.value)}
+      />
+      <p>{getIcon(filePath)}</p>
+      <img
+        className="w-20 h-20"
+        src={`/icons/${getIcon(filePath)}.svg`}
+        alt={filePath}
+      />
+    </div>
   );
 }
 
