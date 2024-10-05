@@ -32,7 +32,7 @@ function App() {
           <div className="bg-gray-200 p-4 rounded-lg">
             <img
               className="w-24 h-24 object-contain"
-              src={`/icons/${getIcon(filePath)}.svg`}
+              src={`omni-file/icons/${getIcon(filePath)}.svg`}
               alt={`Icon for ${filePath}`}
             />
           </div>
