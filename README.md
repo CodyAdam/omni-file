@@ -43,6 +43,8 @@ yarn add omni-file
 
 ## Examples
 
+**[Try out the demo](https://codyadam.github.io/omni-file/)**
+
 ### Examples of `getIcon`
 
 ```typescript
