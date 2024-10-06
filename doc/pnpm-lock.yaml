@@ -9,7 +9,7 @@ importers:
   .:
     dependencies:
       omni-file:
-        specifier: ^1.2.1
+        specifier: latest
         version: 1.2.1
       react:
         specifier: ^18.3.1
