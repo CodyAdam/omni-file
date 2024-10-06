@@ -2,7 +2,7 @@
   "name": "omni-file",
   "version": "1.2.3",
   "description": "You got a filename/foldername we got all its info: icon, category, type, extensions, mime type, color, and more...",
-  "homepage": "https://github.com/CodyAdam/omni-file",
+  "homepage": "https://codyadam.github.io/omni-file/",
   "repository": {
     "type": "git",
     "url": "https://github.com/CodyAdam/omni-file.git"
