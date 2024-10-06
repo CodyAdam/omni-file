@@ -26,15 +26,15 @@ export function LangShowcase({ pathName }: { pathName: string }) {
               {key}
             </span>
             {Array.isArray(value) ? (
-              <span className="font-mono" title={value.join(", ")}>
+              <span className="font-mono text-right" title={value.join(", ")}>
                 {value.join(", ")}
               </span>
             ) : typeof value === "boolean" ? (
-              <span className="font-mono" title={value.toString()}>
+              <span className="font-mono text-right" title={value.toString()}>
                 {value.toString()}
               </span>
             ) : (
-              <span className="font-mono" title={value.toString()}>
+              <span className="font-mono text-right" title={value.toString()}>
                 {value}
               </span>
             )}
