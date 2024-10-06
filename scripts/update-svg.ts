@@ -27,7 +27,14 @@ function copyFiles(source: string, target: string): void {
   files.forEach((file) => {
     if (path.extname(file).toLowerCase() === ".svg") {
       const sourcePath = path.join(source, file);
-      const targetPath = path.join(target, file);
+      let targetFileName = file;
+      
+      // Remove .clone from the file name if it exists
+      if (file.endsWith('.clone.svg')) {
+        targetFileName = file.replace('.clone.svg', '.svg');
+      }
+      
+      const targetPath = path.join(target, targetFileName);
       fs.copyFileSync(sourcePath, targetPath);
     }
   });

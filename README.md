@@ -14,8 +14,8 @@ Omni-file is a comprehensive file information extractor that provides language, 
 
 - [Features](#features)
 - [Installation](#installation)
-- [API](#api)
 - [Examples](#examples)
+- [API](#api)
 - [Icon Themes](#icon-themes)
 - [Development](#development)
 - [Contributing](#contributing)
@@ -40,38 +40,6 @@ npm install omni-file
 pnpm add omni-file
 yarn add omni-file
 ```
-
-## API
-
-**Core functions:**
-
-- `getLanguage(filename: string): Language`
-- `getIcon(filename: string, options?: IconOptions): string`
-
-**Utility functions:**
-
-- `getBaseFilenameFromRelativePath(filePath: string): string`
-- `getExtensionsFromRelativePath(filePath: string): string[]`
-
-**Type definitions:**
-
-- `LanguageData`: Detailed information about a programming language
-- `LanguageWithIconsData`: Extends `LanguageData` with icon information
-- `IconOptions`: Options for icon retrieval (isFolder, isExpanded, isLight)
-
-- `LanguagesJSON`: A record of language names to `LanguageData` objects
-- `LanguagesWithIconsJSON`: A record of language names to `LanguageWithIconsData` objects
-- `ExtensionMapJSON`: Maps file extensions to language names
-- `FileNamesMapJSON`: Maps specific filenames to language names
-- `IconsJSON`: Defines icon associations for files and folders
-
-**Raw data:**
-
-- [`languages`](https://github.com/CodyAdam/omni-file/tree/main/src/data/languages-with-icons.json): A map of all languages with icons
-- [`extensionMap`](https://github.com/CodyAdam/omni-file/tree/main/src/data/extension-map.json): Maps file extensions to language names
-- [`fileNamesMap`](https://github.com/CodyAdam/omni-file/tree/main/src/data/file-names-map.json): Maps specific filenames to language names
-- [`icons`](https://github.com/CodyAdam/omni-file/tree/main/src/data/icons.json): Default icon set (dark theme)
-- [`iconsLight`](https://github.com/CodyAdam/omni-file/tree/main/src/data/icons-light.json): Light theme icon set (has less icons then dark theme)
 
 ## Examples
 
@@ -155,6 +123,38 @@ import { languages, icons } from "omni-file";
 console.log(languages["JavaScript"].extensions); // -> [ ".js",".cjs",".es",".jsm", ... ]
 console.log(icons.fileExtensions["js"]); // -> "javascript"
 ```
+
+## API
+
+**Core functions:**
+
+- `getLanguage(filename: string): Language`
+- `getIcon(filename: string, options?: IconOptions): string`
+
+**Utility functions:**
+
+- `getBaseFilenameFromRelativePath(filePath: string): string`
+- `getExtensionsFromRelativePath(filePath: string): string[]`
+
+**Type definitions:**
+
+- `LanguageData`: Detailed information about a programming language
+- `LanguageWithIconsData`: Extends `LanguageData` with icon information
+- `IconOptions`: Options for icon retrieval (isFolder, isExpanded, isLight)
+
+- `LanguagesJSON`: A record of language names to `LanguageData` objects
+- `LanguagesWithIconsJSON`: A record of language names to `LanguageWithIconsData` objects
+- `ExtensionMapJSON`: Maps file extensions to language names
+- `FileNamesMapJSON`: Maps specific filenames to language names
+- `IconsJSON`: Defines icon associations for files and folders
+
+**Raw data:**
+
+- [`languages`](https://github.com/CodyAdam/omni-file/tree/main/src/data/languages-with-icons.json): A map of all languages with icons
+- [`extensionMap`](https://github.com/CodyAdam/omni-file/tree/main/src/data/extension-map.json): Maps file extensions to language names
+- [`fileNamesMap`](https://github.com/CodyAdam/omni-file/tree/main/src/data/file-names-map.json): Maps specific filenames to language names
+- [`icons`](https://github.com/CodyAdam/omni-file/tree/main/src/data/icons.json): Default icon set (dark theme)
+- [`iconsLight`](https://github.com/CodyAdam/omni-file/tree/main/src/data/icons-light.json): Light theme icon set (has less icons then dark theme)
 
 ## Icon Themes
 

@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@fontsource-variable/inter':
+        specifier: ^5.1.0
+        version: 5.1.0
       '@fontsource-variable/outfit':
         specifier: ^5.1.0
         version: 5.1.0
@@ -369,6 +372,9 @@ packages:
   '@eslint/plugin-kit@0.2.0':
     resolution: {integrity: sha512-vH9PiIMMwvhCx31Af3HiGzsVNULDbyVkHXwlemn/B0TFj/00ho3y55efXrUZTfQipxoHC5u4xq6zblww1zm1Ig==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
+
+  '@fontsource-variable/inter@5.1.0':
+    resolution: {integrity: sha512-Wj2dUGP0vUpxRGQTXQTCNJO+aLcFcQm+gUPXfj/aS877bQkEPBPv9JvZJpwdm2vzelt8NTZ+ausKlBCJjh2XIg==}
 
   '@fontsource-variable/outfit@5.1.0':
     resolution: {integrity: sha512-WUZiMehPerX/sUWC65Ku9hQ741cJtkCiy5T9XSZd1XbyYudNd/qoZSbUyEbiC00+4rGheNcKzaFdMGp5uonQog==}
@@ -1856,6 +1862,8 @@ snapshots:
   '@eslint/plugin-kit@0.2.0':
     dependencies:
       levn: 0.4.1
+
+  '@fontsource-variable/inter@5.1.0': {}
 
   '@fontsource-variable/outfit@5.1.0': {}
 

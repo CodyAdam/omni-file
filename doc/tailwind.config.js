@@ -13,6 +13,7 @@ export default {
   		},
 			fontFamily: {
 				display: ['Outfit Variable', ...defaultTheme.fontFamily.sans],
+				sans: ['Inter Variable', ...defaultTheme.fontFamily.sans],
 			},
   		colors: {
   			background: 'hsl(var(--background))',
