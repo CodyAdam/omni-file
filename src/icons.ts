@@ -118,6 +118,12 @@ export function getIcon(
     if (iconsThemed.fileExtensions[extension]) {
       return iconsThemed.fileExtensions[extension];
     }
+    // fallback to dark theme if light theme is requested and not available
+    if (isLight) {
+      if (icons.fileExtensions[extension]) {
+        return icons.fileExtensions[extension];
+      }
+    }
   }
 
   // 5. try with dark theme

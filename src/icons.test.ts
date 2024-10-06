@@ -110,4 +110,8 @@ describe('getIcon', () => {
   it('should fallback to dark theme icon when light theme icon is not available', () => {
     expect(getIcon('example.rs', { isLight: true })).toBe('rust');
   });
+
+  it('should fallback to dark theme for test-ts icon when in light theme', () => {
+    expect(getIcon('example.test.ts', { isLight: true })).toBe('test-ts');
+  });
 });
