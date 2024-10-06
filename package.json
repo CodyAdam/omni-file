@@ -1,6 +1,6 @@
 {
   "name": "omni-file",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "description": "You got a filename/foldername we got all its info: icon, category, type, extensions, mime type, color, and more...",
   "homepage": "https://codyadam.github.io/omni-file/",
   "repository": {
