@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "target": "ES2022",
-    "lib": ["ES2023"],
+    "lib": ["ES2023", "DOM", "DOM.Iterable"],
     "module": "ESNext",
     "skipLibCheck": true,
 
@@ -16,7 +16,10 @@
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+
+    /* Node.js types */
+    "types": ["node"]
   },
   "include": ["vite.config.ts"]
 }
