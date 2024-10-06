@@ -64,14 +64,28 @@ function App() {
         </div>
       </header>
 
-      <div className="grid lg:grid-cols-2 gap-12">
-        <div className="flex flex-col h-full">
-          <h1 className="text-[3.5rem] leading-[4rem] mb-12 font-display">
-            From filename to{" "}
-            <span className="text-accent-foreground font-semibold">
-              full file info
-            </span>
-          </h1>
+      <div className="grid lg:grid-cols-2 gap-24">
+        <div className="flex flex-col relative">
+          <div className="lg:-right-20 -bottom-20 lg:bottom-0 pointer-events-none absolute inset-0 flex lg:items-center lg:justify-end items-end justify-center">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              className="w-14 h-14 text-accent-foreground rotate-90 lg:rotate-0 animate-pulse"
+            >
+              <path
+                fill="currentColor"
+                d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
+              />
+            </svg>
+          </div>
+          <div className="flex flex-col">
+            <h1 className="text-[3.5rem] leading-[4rem] mb-12 font-display">
+              From filename to{" "}
+              <span className="text-accent-foreground font-semibold">
+                full file info
+              </span>
+            </h1>
+          </div>
           <div className="flex items-center justify-between mb-2">
             <label
               htmlFor="filePathInput"

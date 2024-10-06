@@ -115,7 +115,7 @@ const svgUrl = `node_modules/omni-file/icons/${icon}.svg`;
 
 **Output:**
 
-![TypeScript](https://github.com/CodyAdam/omni-file/raw/main/public/icons/typescript.svg)
+<img src="https://github.com/CodyAdam/omni-file/raw/main/public/icons/typescript.svg" alt="TypeScript" width="64" height="64">
 
 ### Example using raw data
 
