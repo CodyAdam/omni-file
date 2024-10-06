@@ -8,6 +8,8 @@ Omni-file is a comprehensive file information extractor that provides language, 
 
 > It leverages [GitHub Linguist](https://github.com/github/linguist) data and [Material Icon Theme](https://github.com/PKief/vscode-material-icon-theme) for up-to-date and accurate file type detection and icons. The data is regularly updated to ensure the latest language and icon information.
 
+**[Try out the demo](https://codyadam.github.io/omni-file/)**
+
 ## Table of Contents
 
 - [Features](#features)
