@@ -150,3 +150,9 @@ export type IconsJSON = {
    */
   languageIds: Record<string, string>;
 };
+
+/**
+ * Represents a list of icon names
+ * @example ["nodejs", "python", "docker"]
+ */
+export type IconListJSON = string[];

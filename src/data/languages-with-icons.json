@@ -511,6 +511,7 @@
     "name": "Apex",
     "icons": [
       "salesforce",
+      "tex",
       "java"
     ]
   },
@@ -2911,7 +2912,6 @@
     "name": "EditorConfig",
     "icons": [
       "editorconfig",
-      "config",
       "settings"
     ]
   },
@@ -3922,7 +3922,6 @@
     "name": "Git Config",
     "icons": [
       "git",
-      "config",
       "settings"
     ]
   },
@@ -4920,8 +4919,7 @@
       "npm",
       "prettier",
       "stylelint",
-      "vercel",
-      "config"
+      "vercel"
     ]
   },
   "ImageJ Macro": {
@@ -6120,6 +6118,7 @@
     "name": "Limbo",
     "icons": [
       "brainfuck",
+      "objective-c",
       "document"
     ]
   },
@@ -6387,6 +6386,7 @@
     "tm_scope": "none",
     "name": "M",
     "icons": [
+      "objective-c",
       "document"
     ]
   },
@@ -6441,7 +6441,8 @@
     "language_id": 225,
     "name": "MATLAB",
     "icons": [
-      "matlab"
+      "matlab",
+      "objective-c"
     ]
   },
   "MAXScript": {
@@ -6545,7 +6546,10 @@
     "codemirror_mode": "forth",
     "codemirror_mime_type": "text/x-forth",
     "language_id": 219,
-    "name": "MUF"
+    "name": "MUF",
+    "icons": [
+      "objective-c"
+    ]
   },
   "Macaulay2": {
     "type": "programming",
@@ -6721,6 +6725,7 @@
     "language_id": 224,
     "name": "Mathematica",
     "icons": [
+      "objective-c",
       "mathematica",
       "wolframlanguage",
       "document"
@@ -6783,6 +6788,7 @@
     "language_id": 229,
     "name": "Mercury",
     "icons": [
+      "objective-c",
       "prolog"
     ]
   },
@@ -7751,6 +7757,7 @@
     "ace_mode": "text",
     "name": "ObjectScript",
     "icons": [
+      "tex",
       "document"
     ]
   },
@@ -7958,6 +7965,7 @@
     "name": "OpenEdge ABL",
     "icons": [
       "prolog",
+      "tex",
       "document"
     ]
   },
@@ -11457,6 +11465,7 @@
     "language_id": 371,
     "name": "Terra",
     "icons": [
+      "perl",
       "lua"
     ]
   },
@@ -11633,6 +11642,7 @@
     "language_id": 375,
     "name": "Turing",
     "icons": [
+      "perl",
       "document"
     ]
   },
@@ -11876,6 +11886,7 @@
     "language_id": 399230729,
     "name": "VBA",
     "icons": [
+      "tex",
       "document",
       "visualstudio"
     ]
@@ -12127,6 +12138,7 @@
     "language_id": 679594952,
     "name": "Visual Basic 6.0",
     "icons": [
+      "tex",
       "document",
       "visualstudio"
     ]

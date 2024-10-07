@@ -1,9 +1,18 @@
-import { describe, it, expect, vi } from 'vitest';
-import { getIcon } from './icons';
+import { describe, it, expect, vi, test } from 'vitest';
+import { getIcon, getIconList } from './icons';
 import path from 'path';
 import * as languages from './languages';
+import fs from 'fs';
 
 vi.mock('./languages');
+
+describe('getIconList', () => {
+  test.each(getIconList())('icon %s should exist', (iconName) => {
+    const publicIconsPath = path.join(__dirname, '..', 'public', 'icons');
+    const iconPath = path.join(publicIconsPath, `${iconName}.svg`);
+    expect(fs.existsSync(iconPath), `Icon file not found: ${iconPath}`).toBe(true);
+  });
+});
 
 describe('getIcon', () => {
   it('should return file name icon match', () => {
@@ -115,3 +124,5 @@ describe('getIcon', () => {
     expect(getIcon('example.test.ts', { isLight: true })).toBe('test-ts');
   });
 });
+
+
