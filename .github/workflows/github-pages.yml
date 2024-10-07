@@ -41,6 +41,10 @@ jobs:
           version: 8
       - name: Install dependencies
         run: pnpm install
+      - name: Generate docs
+        run: pnpm run docs
+      - name: Install dependencies
+        run: pnpm install
         working-directory: ./website
       - name: Upgrade to latest omni-file
         run: pnpm upgrade omni-file

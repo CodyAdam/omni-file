@@ -91,10 +91,7 @@ export type LanguagesWithIconsJSON = Record<string, LanguageWithIconsData>;
  * The key has no leading dot.
  *
  * @example
- * {
- *   "js": "JavaScript",
- *   "py": "Python"
- * }
+ * { "js": "JavaScript", "py": "Python" }
  */
 export type ExtensionMapJSON = Record<string, string>;
 
@@ -102,10 +99,7 @@ export type ExtensionMapJSON = Record<string, string>;
  * Represents a mapping of specific filenames to language names (LanguageData["name"])
  *
  * @example
- * {
- *   "makefile": "Makefile",
- *   "Dockerfile": "Dockerfile"
- * }
+ * { "makefile": "Makefile", "Dockerfile": "Dockerfile" }
  */
 export type FileNamesMapJSON = Record<string, string>;
 

@@ -7,7 +7,16 @@ import iconsLightRaw from "./data/icons-light.json";
 import { IconsJSON } from "./json-types";
 import { getLanguage } from "./languages";
 
+/**
+ * The default icon set for dark themes.
+ * This constant contains all the icon definitions for files, folders, and languages.
+ */
 export const icons = iconsRaw as IconsJSON;
+
+/**
+ * The icon set for light themes.
+ * This constant contains all the icon definitions for files, folders, and languages optimized for light backgrounds.
+ */
 export const iconsLight = iconsLightRaw as IconsJSON;
 
 

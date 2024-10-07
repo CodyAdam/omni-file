@@ -47,7 +47,7 @@ function App() {
                 />
               </a>
               <a
-                href="https://github.com/codyadam/omni-file"
+                href="/omni-file/docs/index.html"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-primary text-primary-foreground hover:bg-primary/80 transition px-4 py-2 rounded-xl flex items-center gap-2 ml-1 shrink-0"

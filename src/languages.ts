@@ -10,8 +10,22 @@ import {
 } from "./json-types";
 import { getBaseFilenameFromRelativePath, getExtensionsFromRelativePath } from "./utils/filePath";
 
+/**
+ * A collection of language data, including icons, indexed by language name.
+ * This constant contains detailed information about various programming languages.
+ */
 export const languages = languagesRaw as LanguagesWithIconsJSON;
+
+/**
+ * A mapping of file extensions to language names.
+ * This constant is used to determine the language of a file based on its extension.
+ */
 export const extensionMap = extensionMapRaw as ExtensionMapJSON;
+
+/**
+ * A mapping of specific filenames to language names.
+ * This constant is used to determine the language of a file based on its exact filename.
+ */
 export const fileNamesMap = fileNamesMapRaw as FileNamesMapJSON;
 
 /**

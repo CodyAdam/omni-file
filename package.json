@@ -54,6 +54,7 @@
     "test": "vitest run",
     "test:coverage": "vitest run --coverage",
     "update-data": "tsx scripts/run-all.ts",
+    "docs": "typedoc",
     "prepublishOnly": "pnpm run update-data && pnpm run build && pnpm test"
   },
   "devDependencies": {
@@ -64,6 +65,8 @@
     "material-icon-theme": "^5.11.1",
     "tsup": "^8.3.0",
     "tsx": "^4.19.1",
+    "typedoc": "^0.26.8",
+    "typedoc-material-theme": "^1.1.0",
     "typescript": "^5.6.2",
     "vitest": "^2.1.2"
   }
