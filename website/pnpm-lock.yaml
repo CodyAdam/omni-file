@@ -33,8 +33,8 @@ importers:
         specifier: ^0.447.0
         version: 0.447.0(react@18.3.1)
       omni-file:
-        specifier: ^1.3.1
-        version: 1.3.1
+        specifier: latest
+        version: 1.3.2
       react:
         specifier: ^18.3.1
         version: 18.3.1
@@ -1266,8 +1266,8 @@ packages:
     resolution: {integrity: sha512-RSn9F68PjH9HqtltsSnqYC1XXoWe9Bju5+213R98cNGttag9q9yAOTzdbsqvIa7aNm5WffBZFpWYr2aWrklWAw==}
     engines: {node: '>= 6'}
 
-  omni-file@1.3.1:
-    resolution: {integrity: sha512-rwoKTNFAqPfWZYV/IL2DBE65Fl7P76HkrgvYxf3RnPMjLsB6sSms7iMfc5qbu6cCTisJ/Rb+uNOx7XJq/V0KDQ==}
+  omni-file@1.3.2:
+    resolution: {integrity: sha512-yYf6C04xfGdRXVXYVhxciTjRwyjqqLtZUtsL/fhm5P0rEDgvETe75K/PMaAR1uEUw46ebU9NFWJljt7fQkZh0A==}
 
   optionator@0.9.4:
     resolution: {integrity: sha512-6IpQ7mKUxRcZNLIObR0hz7lxsapSSIYNZJwXPGeF0mTVqGKFIXj1DQcMoT22S3ROcLyY/rz0PWaWZ9ayWmad9g==}
@@ -2707,7 +2707,7 @@ snapshots:
 
   object-hash@3.0.0: {}
 
-  omni-file@1.3.1: {}
+  omni-file@1.3.2: {}
 
   optionator@0.9.4:
     dependencies:

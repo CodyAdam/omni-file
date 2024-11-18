@@ -138,7 +138,7 @@ export function getIcon(
   // 5. try with dark theme
   if (isLight) {
     const icon = getIcon(filePath, { isFolder, isLight: false, isExpanded });
-    if (icon !== iconsThemed.folder && icon !== iconsThemed.file) {
+    if (icon !== iconsThemed.folder && icon !== iconsThemed.file && icon !== iconsThemed.folderExpanded) {
       return icon;
     }
   }

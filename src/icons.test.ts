@@ -123,6 +123,14 @@ describe('getIcon', () => {
   it('should fallback to dark theme for test-ts icon when in light theme', () => {
     expect(getIcon('example.test.ts', { isLight: true })).toBe('test-ts');
   });
+
+  it('should return expanded folder icon when folder is expanded and unknown', () => {
+    expect(getIcon('unknown_folder_name', { isFolder: true, isExpanded: true })).toBe('folder-open');
+  });
+
+  it('should return expanded folder icon when folder is expanded and unknown in light theme', () => {
+    expect(getIcon('unknown_folder_name', { isFolder: true, isExpanded: true, isLight: true })).toBe('folder-open');
+  });
 });
 
 
