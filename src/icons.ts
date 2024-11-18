@@ -153,7 +153,7 @@ export function getIcon(
 
   // 7. fallback to default folder icon
   if (isFolder) {
-    return iconsThemed.folder;
+    return isExpanded ? iconsThemed.folderExpanded : iconsThemed.folder;
   }
 
   // 6. fallback to default to file icon
