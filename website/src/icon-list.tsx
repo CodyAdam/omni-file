@@ -17,6 +17,7 @@ const IconItem = ({ icon, brightness, opacity }: IconItemProps) => {
   const ref = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
+    const element = ref.current;
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
@@ -27,13 +28,13 @@ const IconItem = ({ icon, brightness, opacity }: IconItemProps) => {
       { rootMargin: "500px" }
     );
 
-    if (ref.current) {
-      observer.observe(ref.current);
+    if (element) {
+      observer.observe(element);
     }
 
     return () => {
-      if (ref.current) {
-        observer.unobserve(ref.current);
+      if (element) {
+        observer.unobserve(element);
       }
     };
   }, []);
