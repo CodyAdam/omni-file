@@ -29,37 +29,37 @@ const IconShowcase: React.FC<IconShowcaseProps> = ({
   return (
     <div className="p-4">
       <div className={`grid ${isFolder ? "grid-cols-2" : "grid-cols-1"} gap-4`}>
-        {iconVariations.map((opts, i) => (
-          <div key={i} className="flex items-center gap-4">
-            <div
-              className={cn(
-                "w-16 h-16 shrink-0 p-2 flex items-center justify-center rounded-xl overflow-hidden",
-                opts.isLight ? "bg-white" : "bg-background"
-              )}
-            >
-              <img
-                src={`/omni-file/icons/${getIcon(pathname, {
-                  ...opts,
-                  isFolder,
-                })}.svg`}
-                alt={`Icon: ${getIcon(pathname, { ...opts, isFolder })}`}
-                title={getIcon(pathname, { ...opts, isFolder })}
-                className="w-full h-full shrink-0"
-                style={{
-                  filter: `brightness(${brightness}) opacity(${opacity}%)`,
-                }}
-              />
+        {iconVariations.map((opts, i) => {
+          const icon = getIcon(pathname, { ...opts, isFolder });
+          return (
+            <div key={i} className="flex items-center gap-4">
+              <div
+                className={cn(
+                  "w-16 h-16 shrink-0 p-2 flex items-center justify-center rounded-xl overflow-hidden",
+                  opts.isLight ? "bg-white" : "bg-background"
+                )}
+              >
+                <img
+                  src={`/omni-file/icons/${icon}.svg`}
+                  alt={icon}
+                  title={icon}
+                  className="w-full h-full shrink-0"
+                  style={{
+                    filter: `brightness(${brightness}) opacity(${opacity}%)`,
+                  }}
+                />
+              </div>
+              <span className="text-sm text-muted-foreground">
+                {isFolder
+                  ? opts.isExpanded
+                    ? "Expanded Folder"
+                    : "Folder"
+                  : "File"}
+                {opts.isLight ? " (light)" : ""}
+              </span>
             </div>
-            <span className="text-sm text-muted-foreground">
-              {isFolder
-                ? opts.isExpanded
-                  ? "Expanded Folder"
-                  : "Folder"
-                : "File"}
-              {opts.isLight ? " (light)" : ""}
-            </span>
-          </div>
-        ))}
+          );
+        })}
       </div>
     </div>
   );
