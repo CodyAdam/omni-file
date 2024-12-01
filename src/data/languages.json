@@ -1146,7 +1146,7 @@
     "ace_mode": "css",
     "codemirror_mode": "css",
     "codemirror_mime_type": "text/css",
-    "color": "#563d7c",
+    "color": "#663399",
     "extensions": [
       ".css"
     ],
@@ -2111,7 +2111,8 @@
     "color": "#384d54",
     "tm_scope": "source.dockerfile",
     "extensions": [
-      ".dockerfile"
+      ".dockerfile",
+      ".containerfile"
     ],
     "filenames": [
       "Containerfile",
@@ -2809,7 +2810,7 @@
     "language_id": 761352333,
     "name": "Fortran Free Form"
   },
-  "FreeBasic": {
+  "FreeBASIC": {
     "type": "programming",
     "color": "#141AC9",
     "extensions": [
@@ -2824,7 +2825,7 @@
     "codemirror_mode": "vb",
     "codemirror_mime_type": "text/x-vb",
     "language_id": 472896659,
-    "name": "FreeBasic"
+    "name": "FreeBASIC"
   },
   "FreeMarker": {
     "type": "programming",
@@ -3825,6 +3826,17 @@
     "language_id": 156,
     "name": "Harbour"
   },
+  "Hare": {
+    "type": "programming",
+    "color": "#9d7424",
+    "extensions": [
+      ".ha"
+    ],
+    "ace_mode": "text",
+    "language_id": 463518941,
+    "tm_scope": "none",
+    "name": "Hare"
+  },
   "Haskell": {
     "type": "programming",
     "color": "#5e5086",
@@ -3971,6 +3983,7 @@
       ".url"
     ],
     "filenames": [
+      ".buckconfig",
       ".coveragerc",
       ".flake8",
       ".pylintrc",
@@ -4037,9 +4050,11 @@
       ".coffeelintignore",
       ".cvsignore",
       ".dockerignore",
+      ".easignore",
       ".eleventyignore",
       ".eslintignore",
       ".gitignore",
+      ".ignore",
       ".markdownlintignore",
       ".nodemonignore",
       ".npmignore",
@@ -4244,9 +4259,11 @@
       ".har",
       ".ice",
       ".JSON-tmLanguage",
+      ".json.example",
       ".jsonl",
       ".mcmeta",
       ".sarif",
+      ".tact",
       ".tfstate",
       ".tfstate.backup",
       ".topojson",
@@ -5823,6 +5840,17 @@
     "ace_mode": "text",
     "language_id": 237,
     "name": "Moocode"
+  },
+  "MoonBit": {
+    "type": "programming",
+    "color": "#b92381",
+    "extensions": [
+      ".mbt"
+    ],
+    "tm_scope": "source.moonbit",
+    "ace_mode": "text",
+    "language_id": 181453007,
+    "name": "MoonBit"
   },
   "MoonScript": {
     "type": "programming",
@@ -7602,6 +7630,26 @@
     "language_id": 375265331,
     "name": "Quake"
   },
+  "QuickBASIC": {
+    "type": "programming",
+    "color": "#008080",
+    "extensions": [
+      ".bas"
+    ],
+    "tm_scope": "source.QB64",
+    "aliases": [
+      "qb",
+      "qbasic",
+      "qb64",
+      "classic qbasic",
+      "classic quickbasic"
+    ],
+    "ace_mode": "text",
+    "codemirror_mode": "vb",
+    "codemirror_mime_type": "text/x-vb",
+    "language_id": 593107205,
+    "name": "QuickBASIC"
+  },
   "R": {
     "type": "programming",
     "color": "#198CE7",
@@ -8469,6 +8517,12 @@
   "SSH Config": {
     "type": "data",
     "group": "INI",
+    "aliases": [
+      "sshconfig",
+      "sshdconfig",
+      "ssh_config",
+      "sshd_config"
+    ],
     "filenames": [
       "ssh-config",
       "ssh_config",
@@ -9097,7 +9151,8 @@
       "MODULE.bazel",
       "Tiltfile",
       "WORKSPACE",
-      "WORKSPACE.bazel"
+      "WORKSPACE.bazel",
+      "WORKSPACE.bzlmod"
     ],
     "aliases": [
       "bazel",
@@ -9306,6 +9361,20 @@
     "language_id": 365,
     "name": "TOML"
   },
+  "TSPLIB data": {
+    "aliases": [
+      "travelling salesman problem",
+      "traveling salesman problem"
+    ],
+    "type": "data",
+    "extensions": [
+      ".tsp"
+    ],
+    "tm_scope": "none",
+    "ace_mode": "text",
+    "language_id": 89289301,
+    "name": "TSPLIB data"
+  },
   "TSQL": {
     "type": "programming",
     "color": "#e38c00",
@@ -9356,6 +9425,17 @@
     "ace_mode": "text",
     "language_id": 366,
     "name": "TXL"
+  },
+  "Tact": {
+    "type": "programming",
+    "color": "#48b5ff",
+    "extensions": [
+      ".tact"
+    ],
+    "ace_mode": "text",
+    "tm_scope": "source.tact",
+    "language_id": 606708469,
+    "name": "Tact"
   },
   "Talon": {
     "type": "programming",
@@ -9683,6 +9763,20 @@
     "codemirror_mime_type": "application/typescript",
     "language_id": 378,
     "name": "TypeScript"
+  },
+  "TypeSpec": {
+    "type": "programming",
+    "color": "#4A3665",
+    "aliases": [
+      "tsp"
+    ],
+    "extensions": [
+      ".tsp"
+    ],
+    "tm_scope": "source.tsp",
+    "ace_mode": "text",
+    "language_id": 952272597,
+    "name": "TypeSpec"
   },
   "Typst": {
     "type": "programming",
@@ -10054,7 +10148,7 @@
     "extensions": [
       ".vue"
     ],
-    "tm_scope": "text.html.vue",
+    "tm_scope": "source.vue",
     "ace_mode": "html",
     "language_id": 391,
     "name": "Vue"
@@ -10675,9 +10769,11 @@
     "filenames": [
       ".clang-format",
       ".clang-tidy",
+      ".clangd",
       ".gemrc",
       "CITATION.cff",
       "glide.lock",
+      "pixi.lock",
       "yarn.lock"
     ],
     "ace_mode": "yaml",
@@ -11048,6 +11144,28 @@
     "tm_scope": "source.nesc",
     "language_id": 417,
     "name": "nesC"
+  },
+  "omnetpp-msg": {
+    "type": "programming",
+    "extensions": [
+      ".msg"
+    ],
+    "color": "#a0e0a0",
+    "tm_scope": "source.msg",
+    "ace_mode": "text",
+    "language_id": 664100008,
+    "name": "omnetpp-msg"
+  },
+  "omnetpp-ned": {
+    "type": "programming",
+    "extensions": [
+      ".ned"
+    ],
+    "color": "#08607c",
+    "tm_scope": "source.ned",
+    "ace_mode": "text",
+    "language_id": 924868392,
+    "name": "omnetpp-ned"
   },
   "ooc": {
     "type": "programming",

@@ -1400,7 +1400,7 @@
     "ace_mode": "css",
     "codemirror_mode": "css",
     "codemirror_mime_type": "text/css",
-    "color": "#563d7c",
+    "color": "#663399",
     "extensions": [
       ".css"
     ],
@@ -2557,7 +2557,8 @@
     "color": "#384d54",
     "tm_scope": "source.dockerfile",
     "extensions": [
-      ".dockerfile"
+      ".dockerfile",
+      ".containerfile"
     ],
     "filenames": [
       "Containerfile",
@@ -3402,7 +3403,7 @@
       "document"
     ]
   },
-  "FreeBasic": {
+  "FreeBASIC": {
     "type": "programming",
     "color": "#141AC9",
     "extensions": [
@@ -3417,7 +3418,7 @@
     "codemirror_mode": "vb",
     "codemirror_mime_type": "text/x-vb",
     "language_id": 472896659,
-    "name": "FreeBasic",
+    "name": "FreeBASIC",
     "icons": [
       "document",
       "visualstudio"
@@ -4642,6 +4643,20 @@
       "document"
     ]
   },
+  "Hare": {
+    "type": "programming",
+    "color": "#9d7424",
+    "extensions": [
+      ".ha"
+    ],
+    "ace_mode": "text",
+    "language_id": 463518941,
+    "tm_scope": "none",
+    "name": "Hare",
+    "icons": [
+      "document"
+    ]
+  },
   "Haskell": {
     "type": "programming",
     "color": "#5e5086",
@@ -4814,6 +4829,7 @@
       ".url"
     ],
     "filenames": [
+      ".buckconfig",
       ".coveragerc",
       ".flake8",
       ".pylintrc",
@@ -4834,6 +4850,7 @@
     "name": "INI",
     "icons": [
       "settings",
+      "buck",
       "python-misc",
       "prolog",
       "url"
@@ -4893,9 +4910,11 @@
       ".coffeelintignore",
       ".cvsignore",
       ".dockerignore",
+      ".easignore",
       ".eleventyignore",
       ".eslintignore",
       ".gitignore",
+      ".ignore",
       ".markdownlintignore",
       ".nodemonignore",
       ".npmignore",
@@ -5146,9 +5165,11 @@
       ".har",
       ".ice",
       ".JSON-tmLanguage",
+      ".json.example",
       ".jsonl",
       ".mcmeta",
       ".sarif",
+      ".tact",
       ".tfstate",
       ".tfstate.backup",
       ".topojson",
@@ -7049,6 +7070,20 @@
     "ace_mode": "text",
     "language_id": 237,
     "name": "Moocode",
+    "icons": [
+      "document"
+    ]
+  },
+  "MoonBit": {
+    "type": "programming",
+    "color": "#b92381",
+    "extensions": [
+      ".mbt"
+    ],
+    "tm_scope": "source.moonbit",
+    "ace_mode": "text",
+    "language_id": 181453007,
+    "name": "MoonBit",
     "icons": [
       "document"
     ]
@@ -9221,6 +9256,30 @@
       "document"
     ]
   },
+  "QuickBASIC": {
+    "type": "programming",
+    "color": "#008080",
+    "extensions": [
+      ".bas"
+    ],
+    "tm_scope": "source.QB64",
+    "aliases": [
+      "qb",
+      "qbasic",
+      "qb64",
+      "classic qbasic",
+      "classic quickbasic"
+    ],
+    "ace_mode": "text",
+    "codemirror_mode": "vb",
+    "codemirror_mime_type": "text/x-vb",
+    "language_id": 593107205,
+    "name": "QuickBASIC",
+    "icons": [
+      "document",
+      "visualstudio"
+    ]
+  },
   "R": {
     "type": "programming",
     "color": "#198CE7",
@@ -10250,6 +10309,12 @@
   "SSH Config": {
     "type": "data",
     "group": "INI",
+    "aliases": [
+      "sshconfig",
+      "sshdconfig",
+      "ssh_config",
+      "sshd_config"
+    ],
     "filenames": [
       "ssh-config",
       "ssh_config",
@@ -10263,7 +10328,8 @@
     "language_id": 554920715,
     "name": "SSH Config",
     "icons": [
-      "document"
+      "document",
+      "lock"
     ]
   },
   "STAR": {
@@ -11008,7 +11074,8 @@
       "MODULE.bazel",
       "Tiltfile",
       "WORKSPACE",
-      "WORKSPACE.bazel"
+      "WORKSPACE.bazel",
+      "WORKSPACE.bzlmod"
     ],
     "aliases": [
       "bazel",
@@ -11270,6 +11337,23 @@
       "poetry"
     ]
   },
+  "TSPLIB data": {
+    "aliases": [
+      "travelling salesman problem",
+      "traveling salesman problem"
+    ],
+    "type": "data",
+    "extensions": [
+      ".tsp"
+    ],
+    "tm_scope": "none",
+    "ace_mode": "text",
+    "language_id": 89289301,
+    "name": "TSPLIB data",
+    "icons": [
+      "document"
+    ]
+  },
   "TSQL": {
     "type": "programming",
     "color": "#e38c00",
@@ -11331,6 +11415,20 @@
     "ace_mode": "text",
     "language_id": 366,
     "name": "TXL",
+    "icons": [
+      "document"
+    ]
+  },
+  "Tact": {
+    "type": "programming",
+    "color": "#48b5ff",
+    "extensions": [
+      ".tact"
+    ],
+    "ace_mode": "text",
+    "tm_scope": "source.tact",
+    "language_id": 606708469,
+    "name": "Tact",
     "icons": [
       "document"
     ]
@@ -11719,6 +11817,23 @@
     "icons": [
       "typescript",
       "javascript"
+    ]
+  },
+  "TypeSpec": {
+    "type": "programming",
+    "color": "#4A3665",
+    "aliases": [
+      "tsp"
+    ],
+    "extensions": [
+      ".tsp"
+    ],
+    "tm_scope": "source.tsp",
+    "ace_mode": "text",
+    "language_id": 952272597,
+    "name": "TypeSpec",
+    "icons": [
+      "document"
     ]
   },
   "Typst": {
@@ -12162,7 +12277,7 @@
     "extensions": [
       ".vue"
     ],
-    "tm_scope": "text.html.vue",
+    "tm_scope": "source.vue",
     "ace_mode": "html",
     "language_id": 391,
     "name": "Vue",
@@ -12905,9 +13020,11 @@
     "filenames": [
       ".clang-format",
       ".clang-tidy",
+      ".clangd",
       ".gemrc",
       "CITATION.cff",
       "glide.lock",
+      "pixi.lock",
       "yarn.lock"
     ],
     "ace_mode": "yaml",
@@ -12918,6 +13035,7 @@
     "icons": [
       "yaml",
       "settings",
+      "clangd",
       "yarn"
     ]
   },
@@ -13368,6 +13486,34 @@
     "tm_scope": "source.nesc",
     "language_id": 417,
     "name": "nesC",
+    "icons": [
+      "document"
+    ]
+  },
+  "omnetpp-msg": {
+    "type": "programming",
+    "extensions": [
+      ".msg"
+    ],
+    "color": "#a0e0a0",
+    "tm_scope": "source.msg",
+    "ace_mode": "text",
+    "language_id": 664100008,
+    "name": "omnetpp-msg",
+    "icons": [
+      "document"
+    ]
+  },
+  "omnetpp-ned": {
+    "type": "programming",
+    "extensions": [
+      ".ned"
+    ],
+    "color": "#08607c",
+    "tm_scope": "source.ned",
+    "ace_mode": "text",
+    "language_id": 924868392,
+    "name": "omnetpp-ned",
     "icons": [
       "document"
     ]
