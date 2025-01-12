@@ -439,6 +439,23 @@
       "document"
     ]
   },
+  "Answer Set Programming": {
+    "type": "programming",
+    "color": "#A9CC29",
+    "extensions": [
+      ".lp"
+    ],
+    "interpreters": [
+      "clingo"
+    ],
+    "tm_scope": "source.answersetprogramming",
+    "ace_mode": "prolog",
+    "language_id": 433009171,
+    "name": "Answer Set Programming",
+    "icons": [
+      "prolog"
+    ]
+  },
   "Ant Build System": {
     "type": "data",
     "color": "#A9157E",
@@ -501,6 +518,7 @@
     "color": "#1797c0",
     "extensions": [
       ".cls",
+      ".apex",
       ".trigger"
     ],
     "tm_scope": "source.apex",
@@ -5704,6 +5722,19 @@
       "document"
     ]
   },
+  "KDL": {
+    "type": "data",
+    "color": "#ffb3b3",
+    "extensions": [
+      ".kdl"
+    ],
+    "tm_scope": "source.kdl",
+    "ace_mode": "tcl",
+    "codemirror_mode": "yacas",
+    "codemirror_mime_type": "text/x-yacas",
+    "language_id": 931123626,
+    "name": "KDL"
+  },
   "KRL": {
     "type": "programming",
     "color": "#28430A",
@@ -6140,6 +6171,19 @@
     "icons": [
       "brainfuck",
       "objective-c",
+      "document"
+    ]
+  },
+  "Linear Programming": {
+    "type": "programming",
+    "extensions": [
+      ".lp"
+    ],
+    "tm_scope": "none",
+    "ace_mode": "text",
+    "language_id": 377204539,
+    "name": "Linear Programming",
+    "icons": [
       "document"
     ]
   },
@@ -6916,6 +6960,33 @@
     "name": "MiniYAML",
     "icons": [
       "yaml"
+    ]
+  },
+  "MiniZinc": {
+    "type": "programming",
+    "color": "#06a9e6",
+    "extensions": [
+      ".mzn"
+    ],
+    "tm_scope": "source.mzn",
+    "ace_mode": "text",
+    "language_id": 238874535,
+    "name": "MiniZinc",
+    "icons": [
+      "document"
+    ]
+  },
+  "MiniZinc Data": {
+    "type": "data",
+    "extensions": [
+      ".dzn"
+    ],
+    "tm_scope": "source.mzn",
+    "ace_mode": "text",
+    "language_id": 938193433,
+    "name": "MiniZinc Data",
+    "icons": [
+      "document"
     ]
   },
   "Mint": {
@@ -7744,6 +7815,40 @@
       "ocaml"
     ]
   },
+  "OMNeT++ MSG": {
+    "type": "programming",
+    "extensions": [
+      ".msg"
+    ],
+    "color": "#a0e0a0",
+    "tm_scope": "source.msg",
+    "ace_mode": "text",
+    "aliases": [
+      "omnetpp-msg"
+    ],
+    "language_id": 664100008,
+    "name": "OMNeT++ MSG",
+    "icons": [
+      "document"
+    ]
+  },
+  "OMNeT++ NED": {
+    "type": "programming",
+    "extensions": [
+      ".ned"
+    ],
+    "color": "#08607c",
+    "tm_scope": "source.ned",
+    "ace_mode": "text",
+    "aliases": [
+      "omnetpp-ned"
+    ],
+    "language_id": 924868392,
+    "name": "OMNeT++ NED",
+    "icons": [
+      "document"
+    ]
+  },
   "Oberon": {
     "type": "programming",
     "extensions": [
@@ -8113,6 +8218,21 @@
     "ace_mode": "text",
     "language_id": 267,
     "name": "Org",
+    "icons": [
+      "document"
+    ]
+  },
+  "OverpassQL": {
+    "type": "programming",
+    "color": "#cce2aa",
+    "wrap": true,
+    "extensions": [
+      ".overpassql"
+    ],
+    "tm_scope": "source.overpassql",
+    "ace_mode": "text",
+    "language_id": 689079655,
+    "name": "OverpassQL",
     "icons": [
       "document"
     ]
@@ -11187,6 +11307,21 @@
       "document"
     ]
   },
+  "Survex data": {
+    "type": "data",
+    "color": "#ffcc99",
+    "tm_scope": "none",
+    "ace_mode": "text",
+    "extensions": [
+      ".svx"
+    ],
+    "language_id": 24470517,
+    "name": "Survex data",
+    "icons": [
+      "mdsvex",
+      "document"
+    ]
+  },
   "Svelte": {
     "type": "markup",
     "color": "#ff3e00",
@@ -12725,6 +12860,7 @@
       ".glade",
       ".gml",
       ".gmx",
+      ".gpx",
       ".grxml",
       ".gst",
       ".hzp",
@@ -13443,6 +13579,24 @@
       "document"
     ]
   },
+  "mdsvex": {
+    "type": "markup",
+    "color": "#5f9ea0",
+    "tm_scope": "none",
+    "ace_mode": "markdown",
+    "codemirror_mode": "gfm",
+    "codemirror_mime_type": "text/x-gfm",
+    "wrap": true,
+    "extensions": [
+      ".svx"
+    ],
+    "language_id": 566198445,
+    "name": "mdsvex",
+    "icons": [
+      "mdsvex",
+      "markdown"
+    ]
+  },
   "mupad": {
     "type": "programming",
     "color": "#244963",
@@ -13486,34 +13640,6 @@
     "tm_scope": "source.nesc",
     "language_id": 417,
     "name": "nesC",
-    "icons": [
-      "document"
-    ]
-  },
-  "omnetpp-msg": {
-    "type": "programming",
-    "extensions": [
-      ".msg"
-    ],
-    "color": "#a0e0a0",
-    "tm_scope": "source.msg",
-    "ace_mode": "text",
-    "language_id": 664100008,
-    "name": "omnetpp-msg",
-    "icons": [
-      "document"
-    ]
-  },
-  "omnetpp-ned": {
-    "type": "programming",
-    "extensions": [
-      ".ned"
-    ],
-    "color": "#08607c",
-    "tm_scope": "source.ned",
-    "ace_mode": "text",
-    "language_id": 924868392,
-    "name": "omnetpp-ned",
     "icons": [
       "document"
     ]
