@@ -358,6 +358,7 @@
   "Web.Release.config": "XML",
   "Web.config": "XML",
   "packages.config": "XML",
+  "xmake.lua": "Xmake",
   ".clang-format": "YAML",
   ".clang-tidy": "YAML",
   ".clangd": "YAML",

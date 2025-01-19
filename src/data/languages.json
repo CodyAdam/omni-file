@@ -417,7 +417,7 @@
       "apache2.conf",
       "httpd.conf"
     ],
-    "tm_scope": "source.apache-config",
+    "tm_scope": "source.apacheconf",
     "ace_mode": "apache_conf",
     "language_id": 16,
     "name": "ApacheConf"
@@ -10817,6 +10817,17 @@
     "color": "#EB8CEB",
     "language_id": 404,
     "name": "XSLT"
+  },
+  "Xmake": {
+    "type": "programming",
+    "color": "#22a079",
+    "filenames": [
+      "xmake.lua"
+    ],
+    "tm_scope": "source.xmake",
+    "ace_mode": "text",
+    "language_id": 225223071,
+    "name": "Xmake"
   },
   "Xojo": {
     "type": "programming",
