@@ -5334,6 +5334,20 @@
       "javascript"
     ]
   },
+  "Jai": {
+    "type": "programming",
+    "color": "#ab8b4b",
+    "ace_mode": "text",
+    "tm_scope": "source.jai",
+    "extensions": [
+      ".jai"
+    ],
+    "language_id": 70127133,
+    "name": "Jai",
+    "icons": [
+      "document"
+    ]
+  },
   "Janet": {
     "type": "programming",
     "color": "#0886a5",
