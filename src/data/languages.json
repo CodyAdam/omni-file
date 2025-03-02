@@ -516,7 +516,8 @@
       ".i",
       ".inc",
       ".nas",
-      ".nasm"
+      ".nasm",
+      ".s"
     ],
     "tm_scope": "source.assembly",
     "ace_mode": "assembly_x86",
@@ -4036,6 +4037,19 @@
     "language_id": 164,
     "name": "IRC log"
   },
+  "ISPC": {
+    "type": "programming",
+    "color": "#2D68B1",
+    "extensions": [
+      ".ispc"
+    ],
+    "tm_scope": "source.ispc",
+    "ace_mode": "c_cpp",
+    "codemirror_mode": "clike",
+    "codemirror_mime_type": "text/x-csrc",
+    "language_id": 327071,
+    "name": "ISPC"
+  },
   "Idris": {
     "type": "programming",
     "color": "#b30000",
@@ -4313,7 +4327,7 @@
     "type": "data",
     "color": "#292929",
     "group": "JSON",
-    "tm_scope": "source.js",
+    "tm_scope": "source.json.comments",
     "ace_mode": "javascript",
     "codemirror_mode": "javascript",
     "codemirror_mime_type": "text/javascript",
@@ -5123,7 +5137,7 @@
     "name": "Linear Programming"
   },
   "Linker Script": {
-    "type": "data",
+    "type": "programming",
     "extensions": [
       ".ld",
       ".lds",
@@ -5132,7 +5146,7 @@
     "filenames": [
       "ld.script"
     ],
-    "tm_scope": "none",
+    "tm_scope": "source.c.linker",
     "ace_mode": "text",
     "language_id": 202,
     "name": "Linker Script"
@@ -9020,6 +9034,17 @@
     "ace_mode": "text",
     "language_id": 987024632,
     "name": "Singularity"
+  },
+  "Slang": {
+    "type": "programming",
+    "color": "#1fbec9",
+    "extensions": [
+      ".slang"
+    ],
+    "tm_scope": "source.slang",
+    "ace_mode": "text",
+    "language_id": 239357863,
+    "name": "Slang"
   },
   "Slash": {
     "type": "programming",
