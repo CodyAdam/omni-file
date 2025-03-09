@@ -11906,6 +11906,24 @@
       "document"
     ]
   },
+  "Tree-sitter Query": {
+    "type": "programming",
+    "color": "#8ea64c",
+    "aliases": [
+      "tsq"
+    ],
+    "extensions": [
+      ".scm"
+    ],
+    "tm_scope": "source.scm",
+    "ace_mode": "text",
+    "language_id": 436081647,
+    "name": "Tree-sitter Query",
+    "icons": [
+      "scheme",
+      "document"
+    ]
+  },
   "Turing": {
     "type": "programming",
     "color": "#cf142b",
