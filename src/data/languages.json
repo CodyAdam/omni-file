@@ -1722,18 +1722,6 @@
     "language_id": 68,
     "name": "Cool"
   },
-  "Coq": {
-    "type": "programming",
-    "color": "#d0b68c",
-    "extensions": [
-      ".coq",
-      ".v"
-    ],
-    "tm_scope": "source.coq",
-    "ace_mode": "text",
-    "language_id": 69,
-    "name": "Coq"
-  },
   "Cpp-ObjDump": {
     "type": "data",
     "extensions": [
@@ -3629,6 +3617,19 @@
     "language_id": 144,
     "name": "HCL"
   },
+  "HIP": {
+    "type": "programming",
+    "color": "#4F3A4F",
+    "extensions": [
+      ".hip"
+    ],
+    "tm_scope": "source.c++",
+    "ace_mode": "c_cpp",
+    "codemirror_mode": "clike",
+    "codemirror_mime_type": "text/x-c++src",
+    "language_id": 674379998,
+    "name": "HIP"
+  },
   "HLSL": {
     "type": "programming",
     "color": "#aace60",
@@ -4899,6 +4900,20 @@
     "language_id": 188,
     "name": "Kit"
   },
+  "Koka": {
+    "type": "programming",
+    "ace_mode": "text",
+    "extensions": [
+      ".kk"
+    ],
+    "interpreters": [
+      "koka"
+    ],
+    "color": "#215166",
+    "tm_scope": "source.koka",
+    "language_id": 597930447,
+    "name": "Koka"
+  },
   "Kotlin": {
     "type": "programming",
     "color": "#A97BFF",
@@ -5369,6 +5384,22 @@
     "language_id": 214,
     "tm_scope": "none",
     "name": "M"
+  },
+  "M3U": {
+    "type": "data",
+    "aliases": [
+      "hls playlist",
+      "m3u playlist"
+    ],
+    "extensions": [
+      ".m3u",
+      ".m3u8"
+    ],
+    "color": "#179C7D",
+    "tm_scope": "source.m3u",
+    "ace_mode": "text",
+    "language_id": 89638692,
+    "name": "M3U"
   },
   "M4": {
     "type": "programming",
@@ -7666,7 +7697,8 @@
       "python3",
       "py",
       "pypy",
-      "pypy3"
+      "pypy3",
+      "uv"
     ],
     "aliases": [
       "python3",
@@ -8296,6 +8328,22 @@
     "language_id": 440182480,
     "name": "Roc"
   },
+  "Rocq Prover": {
+    "type": "programming",
+    "color": "#d0b68c",
+    "extensions": [
+      ".v",
+      ".coq"
+    ],
+    "aliases": [
+      "coq",
+      "rocq"
+    ],
+    "tm_scope": "source.coq",
+    "ace_mode": "text",
+    "language_id": 69,
+    "name": "Rocq Prover"
+  },
   "Roff": {
     "type": "markup",
     "color": "#ecdebe",
@@ -8559,7 +8607,8 @@
     "type": "programming",
     "extensions": [
       ".smt2",
-      ".smt"
+      ".smt",
+      ".z3"
     ],
     "interpreters": [
       "boolector",
@@ -8747,6 +8796,17 @@
     "codemirror_mime_type": "text/x-python",
     "language_id": 338,
     "name": "Sage"
+  },
+  "Sail": {
+    "type": "programming",
+    "color": "#259dd5",
+    "ace_mode": "text",
+    "extensions": [
+      ".sail"
+    ],
+    "tm_scope": "source.sail",
+    "language_id": 1029438153,
+    "name": "Sail"
   },
   "SaltStack": {
     "type": "programming",
