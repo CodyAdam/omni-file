@@ -334,6 +334,7 @@
   "use.mask": "Text",
   "use.stable.mask": "Text",
   ".tm_properties": "TextMate Properties",
+  "torrc": "Tor Config",
   ".exrc": "Vim Script",
   ".gvimrc": "Vim Script",
   ".nvimrc": "Vim Script",

@@ -4866,6 +4866,7 @@
       ".cfg",
       ".cnf",
       ".dof",
+      ".frm",
       ".lektorproject",
       ".prefs",
       ".pro",
@@ -12005,6 +12006,20 @@
       "document"
     ]
   },
+  "Tor Config": {
+    "type": "data",
+    "color": "#59316b",
+    "filenames": [
+      "torrc"
+    ],
+    "tm_scope": "source.torrc",
+    "ace_mode": "apache_conf",
+    "aliases": [
+      "torrc"
+    ],
+    "language_id": 1016912802,
+    "name": "Tor Config"
+  },
   "Tree-sitter Query": {
     "type": "programming",
     "color": "#8ea64c",
@@ -12587,7 +12602,7 @@
     "extensions": [
       ".vy"
     ],
-    "color": "#2980b9",
+    "color": "#9F4CF2",
     "ace_mode": "text",
     "tm_scope": "source.vyper",
     "language_id": 1055641948,
