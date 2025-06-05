@@ -147,6 +147,7 @@
     "language_id": 3,
     "name": "AMPL",
     "icons": [
+      "audio",
       "document"
     ]
   },
@@ -364,6 +365,20 @@
     "ace_mode": "text",
     "language_id": 12,
     "name": "Agda",
+    "icons": [
+      "document"
+    ]
+  },
+  "Aiken": {
+    "type": "programming",
+    "color": "#640ff8",
+    "ace_mode": "text",
+    "extensions": [
+      ".ak"
+    ],
+    "tm_scope": "source.aiken",
+    "language_id": 899409497,
+    "name": "Aiken",
     "icons": [
       "document"
     ]
@@ -911,7 +926,7 @@
     "language_id": 982188347,
     "name": "BibTeX",
     "icons": [
-      "lib",
+      "bibliography",
       "tex"
     ]
   },
@@ -925,6 +940,7 @@
     "language_id": 909569041,
     "name": "BibTeX Style",
     "icons": [
+      "bibtex-style",
       "document"
     ]
   },
@@ -1189,6 +1205,7 @@
     "language_id": 84359046,
     "name": "BuildStream",
     "icons": [
+      "bibtex-style",
       "yaml"
     ]
   },
@@ -1918,6 +1935,20 @@
       "css"
     ]
   },
+  "Clue": {
+    "type": "programming",
+    "color": "#0009b5",
+    "extensions": [
+      ".clue"
+    ],
+    "tm_scope": "source.clue",
+    "ace_mode": "text",
+    "language_id": 163763508,
+    "name": "Clue",
+    "icons": [
+      "document"
+    ]
+  },
   "CoNLL-U": {
     "type": "data",
     "extensions": [
@@ -2483,6 +2514,20 @@
       "dart"
     ]
   },
+  "Daslang": {
+    "type": "programming",
+    "color": "#d3d3d3",
+    "extensions": [
+      ".das"
+    ],
+    "tm_scope": "source.daslang",
+    "ace_mode": "text",
+    "language_id": 648759486,
+    "name": "Daslang",
+    "icons": [
+      "document"
+    ]
+  },
   "DataWeave": {
     "type": "programming",
     "color": "#003a52",
@@ -2718,6 +2763,7 @@
     "language_id": 529653389,
     "name": "E-mail",
     "icons": [
+      "email",
       "document"
     ]
   },
@@ -3606,6 +3652,22 @@
       "document"
     ]
   },
+  "GDShader": {
+    "type": "programming",
+    "color": "#478CBF",
+    "extensions": [
+      ".gdshader",
+      ".gdshaderinc"
+    ],
+    "tm_scope": "source.gdshader",
+    "ace_mode": "glsl",
+    "language_id": 694638086,
+    "name": "GDShader",
+    "icons": [
+      "godot-assets",
+      "shader"
+    ]
+  },
   "GEDCOM": {
     "type": "data",
     "color": "#003058",
@@ -4065,6 +4127,8 @@
     "language_id": 131,
     "name": "Gnuplot",
     "icons": [
+      "gnuplot",
+      "audio",
       "prolog",
       "document"
     ]
@@ -4785,6 +4849,7 @@
     "language_id": 231021894,
     "name": "Hosts File",
     "icons": [
+      "hosts",
       "document"
     ]
   },
@@ -4897,6 +4962,7 @@
       "settings",
       "buck",
       "python-misc",
+      "hosts",
       "prolog",
       "url"
     ]
@@ -5262,7 +5328,9 @@
       "json",
       "istanbul",
       "watchman",
+      "bun",
       "deno",
+      "3d",
       "minecraft",
       "terraform",
       "gamemaker",
@@ -6159,6 +6227,21 @@
       "document"
     ]
   },
+  "Leo": {
+    "type": "programming",
+    "color": "#C4FFC2",
+    "extensions": [
+      ".leo"
+    ],
+    "tm_scope": "source.leo",
+    "ace_mode": "text",
+    "wrap": true,
+    "language_id": 916034822,
+    "name": "Leo",
+    "icons": [
+      "document"
+    ]
+  },
   "Less": {
     "type": "markup",
     "color": "#1d365d",
@@ -6289,6 +6372,7 @@
     "language_id": 203,
     "name": "Linux Kernel Module",
     "icons": [
+      "audio",
       "document"
     ]
   },
@@ -6359,6 +6443,7 @@
     "language_id": 207,
     "name": "Literate Haskell",
     "icons": [
+      "haskell",
       "document"
     ]
   },
@@ -6506,6 +6591,7 @@
     "language_id": 365050359,
     "name": "Luau",
     "icons": [
+      "luau",
       "lua"
     ]
   },
@@ -6545,6 +6631,7 @@
     "language_id": 89638692,
     "name": "M3U",
     "icons": [
+      "audio",
       "document"
     ]
   },
@@ -7143,6 +7230,7 @@
     "language_id": 234,
     "name": "Modula-2",
     "icons": [
+      "audio",
       "document"
     ]
   },
@@ -7439,6 +7527,7 @@
     "language_id": 136456478,
     "name": "NMODL",
     "icons": [
+      "audio",
       "document"
     ]
   },
@@ -7922,6 +8011,7 @@
     "language_id": 664100008,
     "name": "OMNeT++ MSG",
     "icons": [
+      "email",
       "document"
     ]
   },
@@ -8725,6 +8815,7 @@
     "name": "Perl",
     "icons": [
       "perl",
+      "latexmk",
       "prolog"
     ]
   },
@@ -9005,6 +9096,7 @@
     "language_id": 292,
     "name": "PowerBuilder",
     "icons": [
+      "image",
       "document"
     ]
   },
@@ -9825,7 +9917,8 @@
     "codemirror_mode": "rust",
     "codemirror_mime_type": "text/x-rustsrc",
     "extensions": [
-      ".res"
+      ".res",
+      ".resi"
     ],
     "interpreters": [
       "ocaml"
@@ -9835,6 +9928,7 @@
     "name": "ReScript",
     "icons": [
       "rescript",
+      "rescript-interface",
       "rust"
     ]
   },
@@ -10194,7 +10288,7 @@
     "language_id": 141,
     "name": "Roff",
     "icons": [
-      "markdown",
+      "markdoc",
       "assembly",
       "document"
     ]
@@ -10233,7 +10327,7 @@
     "language_id": 612669833,
     "name": "Roff Manpage",
     "icons": [
-      "markdown",
+      "markdoc",
       "document"
     ]
   },
@@ -10539,7 +10633,10 @@
       ".srt"
     ],
     "language_id": 335,
-    "name": "SRecode Template"
+    "name": "SRecode Template",
+    "icons": [
+      "subtitles"
+    ]
   },
   "SSH Config": {
     "type": "data",
@@ -10836,7 +10933,6 @@
     "language_id": 664257356,
     "name": "ShaderLab",
     "icons": [
-      "shaderlab",
       "shader",
       "document"
     ]
@@ -11204,6 +11300,7 @@
     "language_id": 151241392,
     "name": "Snakemake",
     "icons": [
+      "snakemake",
       "python"
     ]
   },
@@ -11368,6 +11465,7 @@
     "language_id": 358,
     "name": "Stata",
     "icons": [
+      "tcl",
       "document"
     ]
   },
@@ -11412,6 +11510,7 @@
     "language_id": 360,
     "name": "SubRip Text",
     "icons": [
+      "subtitles",
       "document"
     ]
   },
@@ -11610,7 +11709,7 @@
     "language_id": 365,
     "name": "TOML",
     "icons": [
-      "settings",
+      "toml",
       "pdm",
       "poetry"
     ]
@@ -11809,7 +11908,14 @@
     "language_id": 369,
     "name": "TeX",
     "icons": [
-      "tex"
+      "tex",
+      "bbx",
+      "cbx",
+      "dtx",
+      "lbx",
+      "ltx",
+      "sty",
+      "latex"
     ]
   },
   "Tea": {
@@ -12198,7 +12304,7 @@
     "language_id": 380,
     "name": "Unity3D Asset",
     "icons": [
-      "shaderlab",
+      "unity",
       "yaml"
     ]
   },
@@ -12252,6 +12358,20 @@
     "name": "UnrealScript",
     "icons": [
       "java"
+    ]
+  },
+  "Untyped Plutus Core": {
+    "type": "programming",
+    "color": "#36adbd",
+    "ace_mode": "text",
+    "extensions": [
+      ".uplc"
+    ],
+    "tm_scope": "source.uplc",
+    "language_id": 1061635506,
+    "name": "Untyped Plutus Core",
+    "icons": [
+      "document"
     ]
   },
   "UrWeb": {
@@ -12422,6 +12542,20 @@
     "name": "Velocity Template Language",
     "icons": [
       "velocity"
+    ]
+  },
+  "Vento": {
+    "type": "markup",
+    "color": "#ff0080",
+    "extensions": [
+      ".vto"
+    ],
+    "tm_scope": "source.vento",
+    "ace_mode": "text",
+    "language_id": 757053899,
+    "name": "Vento",
+    "icons": [
+      "document"
     ]
   },
   "Verilog": {
@@ -12753,6 +12887,7 @@
     "language_id": 658679714,
     "name": "WebVTT",
     "icons": [
+      "subtitles",
       "document"
     ]
   },
@@ -12836,6 +12971,7 @@
     "language_id": 969674868,
     "name": "Windows Registry Entries",
     "icons": [
+      "regedit",
       "settings"
     ]
   },
@@ -13076,6 +13212,7 @@
       ".scxml",
       ".sfproj",
       ".shproj",
+      ".slnx",
       ".srdf",
       ".storyboard",
       ".sublime-snippet",
@@ -13138,6 +13275,7 @@
       "gamemaker",
       "mjml",
       "cpp",
+      "audio",
       "mojo",
       "mxml",
       "settings",
@@ -13271,6 +13409,7 @@
     "language_id": 225223071,
     "name": "Xmake",
     "icons": [
+      "xmake",
       "document"
     ]
   },
@@ -13306,6 +13445,7 @@
     "language_id": 614078284,
     "name": "Xonsh",
     "icons": [
+      "console",
       "document",
       "python"
     ]
@@ -13546,6 +13686,20 @@
     "ace_mode": "text",
     "language_id": 411,
     "name": "Zimpl",
+    "icons": [
+      "document"
+    ]
+  },
+  "Zmodel": {
+    "type": "data",
+    "color": "#ff7100",
+    "extensions": [
+      ".zmodel"
+    ],
+    "tm_scope": "source.zmodel",
+    "ace_mode": "text",
+    "language_id": 803760908,
+    "name": "Zmodel",
     "icons": [
       "document"
     ]

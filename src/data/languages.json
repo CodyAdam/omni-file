@@ -300,6 +300,17 @@
     "language_id": 12,
     "name": "Agda"
   },
+  "Aiken": {
+    "type": "programming",
+    "color": "#640ff8",
+    "ace_mode": "text",
+    "extensions": [
+      ".ak"
+    ],
+    "tm_scope": "source.aiken",
+    "language_id": 899409497,
+    "name": "Aiken"
+  },
   "Alloy": {
     "type": "programming",
     "color": "#64C800",
@@ -1571,6 +1582,17 @@
     "language_id": 407996372,
     "name": "Cloud Firestore Security Rules"
   },
+  "Clue": {
+    "type": "programming",
+    "color": "#0009b5",
+    "extensions": [
+      ".clue"
+    ],
+    "tm_scope": "source.clue",
+    "ace_mode": "text",
+    "language_id": 163763508,
+    "name": "Clue"
+  },
   "CoNLL-U": {
     "type": "data",
     "extensions": [
@@ -2053,6 +2075,17 @@
     "codemirror_mime_type": "application/dart",
     "language_id": 87,
     "name": "Dart"
+  },
+  "Daslang": {
+    "type": "programming",
+    "color": "#d3d3d3",
+    "extensions": [
+      ".das"
+    ],
+    "tm_scope": "source.daslang",
+    "ace_mode": "text",
+    "language_id": 648759486,
+    "name": "Daslang"
   },
   "DataWeave": {
     "type": "programming",
@@ -2974,6 +3007,18 @@
     "ace_mode": "text",
     "language_id": 123,
     "name": "GDScript"
+  },
+  "GDShader": {
+    "type": "programming",
+    "color": "#478CBF",
+    "extensions": [
+      ".gdshader",
+      ".gdshaderinc"
+    ],
+    "tm_scope": "source.gdshader",
+    "ace_mode": "glsl",
+    "language_id": 694638086,
+    "name": "GDShader"
   },
   "GEDCOM": {
     "type": "data",
@@ -5093,6 +5138,18 @@
     "ace_mode": "text",
     "language_id": 455147478,
     "name": "Lean 4"
+  },
+  "Leo": {
+    "type": "programming",
+    "color": "#C4FFC2",
+    "extensions": [
+      ".leo"
+    ],
+    "tm_scope": "source.leo",
+    "ace_mode": "text",
+    "wrap": true,
+    "language_id": 916034822,
+    "name": "Leo"
   },
   "Less": {
     "type": "markup",
@@ -8114,7 +8171,8 @@
     "codemirror_mode": "rust",
     "codemirror_mime_type": "text/x-rustsrc",
     "extensions": [
-      ".res"
+      ".res",
+      ".resi"
     ],
     "interpreters": [
       "ocaml"
@@ -10129,6 +10187,17 @@
     "language_id": 382,
     "name": "UnrealScript"
   },
+  "Untyped Plutus Core": {
+    "type": "programming",
+    "color": "#36adbd",
+    "ace_mode": "text",
+    "extensions": [
+      ".uplc"
+    ],
+    "tm_scope": "source.uplc",
+    "language_id": 1061635506,
+    "name": "Untyped Plutus Core"
+  },
   "UrWeb": {
     "type": "programming",
     "color": "#ccccee",
@@ -10267,6 +10336,17 @@
     "codemirror_mime_type": "text/velocity",
     "language_id": 292377326,
     "name": "Velocity Template Language"
+  },
+  "Vento": {
+    "type": "markup",
+    "color": "#ff0080",
+    "extensions": [
+      ".vto"
+    ],
+    "tm_scope": "source.vento",
+    "ace_mode": "text",
+    "language_id": 757053899,
+    "name": "Vento"
   },
   "Verilog": {
     "type": "programming",
@@ -10822,6 +10902,7 @@
       ".scxml",
       ".sfproj",
       ".shproj",
+      ".slnx",
       ".srdf",
       ".storyboard",
       ".sublime-snippet",
@@ -11200,6 +11281,17 @@
     "ace_mode": "text",
     "language_id": 411,
     "name": "Zimpl"
+  },
+  "Zmodel": {
+    "type": "data",
+    "color": "#ff7100",
+    "extensions": [
+      ".zmodel"
+    ],
+    "tm_scope": "source.zmodel",
+    "ace_mode": "text",
+    "language_id": 803760908,
+    "name": "Zmodel"
   },
   "cURL Config": {
     "type": "data",
