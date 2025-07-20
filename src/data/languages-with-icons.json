@@ -205,17 +205,14 @@
   },
   "ASL": {
     "type": "programming",
-    "ace_mode": "text",
+    "ace_mode": "asl",
     "extensions": [
       ".asl",
       ".dsl"
     ],
     "tm_scope": "source.asl",
     "language_id": 124996147,
-    "name": "ASL",
-    "icons": [
-      "document"
-    ]
+    "name": "ASL"
   },
   "ASN.1": {
     "type": "data",
@@ -537,15 +534,14 @@
       ".trigger"
     ],
     "tm_scope": "source.apex",
-    "ace_mode": "java",
+    "ace_mode": "apex",
     "codemirror_mode": "clike",
     "codemirror_mime_type": "text/x-java",
     "language_id": 17,
     "name": "Apex",
     "icons": [
       "salesforce",
-      "tex",
-      "java"
+      "tex"
     ]
   },
   "Apollo Guidance Computer": {
@@ -662,14 +658,13 @@
       ".astro"
     ],
     "tm_scope": "source.astro",
-    "ace_mode": "html",
+    "ace_mode": "astro",
     "codemirror_mode": "jsx",
     "codemirror_mime_type": "text/jsx",
     "language_id": 578209015,
     "name": "Astro",
     "icons": [
-      "astro",
-      "html"
+      "astro"
     ]
   },
   "Asymptote": {
@@ -804,13 +799,10 @@
       ".bas"
     ],
     "tm_scope": "source.basic",
-    "ace_mode": "text",
+    "ace_mode": "basic",
     "color": "#ff0000",
     "language_id": 28923963,
-    "name": "BASIC",
-    "icons": [
-      "document"
-    ]
+    "name": "BASIC"
   },
   "BQN": {
     "type": "programming",
@@ -920,14 +912,13 @@
       ".bibtex"
     ],
     "tm_scope": "text.bibtex",
-    "ace_mode": "tex",
+    "ace_mode": "bibtex",
     "codemirror_mode": "stex",
     "codemirror_mime_type": "text/x-stex",
     "language_id": 982188347,
     "name": "BibTeX",
     "icons": [
-      "bibliography",
-      "tex"
+      "bibliography"
     ]
   },
   "BibTeX Style": {
@@ -1017,12 +1008,11 @@
       ".blade.php"
     ],
     "tm_scope": "text.html.php.blade",
-    "ace_mode": "text",
+    "ace_mode": "php_laravel_blade",
     "language_id": 33,
     "name": "Blade",
     "icons": [
-      "laravel",
-      "document"
+      "laravel"
     ]
   },
   "BlitzBasic": {
@@ -1477,7 +1467,7 @@
   "CSV": {
     "type": "data",
     "color": "#237346",
-    "ace_mode": "text",
+    "ace_mode": "csv",
     "tm_scope": "none",
     "extensions": [
       ".csv"
@@ -1485,8 +1475,7 @@
     "language_id": 51,
     "name": "CSV",
     "icons": [
-      "table",
-      "document"
+      "table"
     ]
   },
   "CUE": {
@@ -1530,7 +1519,7 @@
       "cabal.config",
       "cabal.project"
     ],
-    "ace_mode": "haskell",
+    "ace_mode": "haskell_cabal",
     "codemirror_mode": "haskell",
     "codemirror_mime_type": "text/x-haskell",
     "tm_scope": "source.cabal",
@@ -2177,7 +2166,7 @@
     "extensions": [
       ".cr"
     ],
-    "ace_mode": "ruby",
+    "ace_mode": "crystal",
     "codemirror_mode": "crystal",
     "codemirror_mime_type": "text/x-crystal",
     "tm_scope": "source.crystal",
@@ -2187,8 +2176,7 @@
     "language_id": 72,
     "name": "Crystal",
     "icons": [
-      "crystal",
-      "ruby"
+      "crystal"
     ]
   },
   "Csound": {
@@ -2319,6 +2307,8 @@
       ".cypher"
     ],
     "tm_scope": "source.cypher",
+    "codemirror_mode": "cypher",
+    "codemirror_mime_type": "application/x-cypher-query",
     "ace_mode": "text",
     "language_id": 850806976,
     "name": "Cypher",
@@ -2824,6 +2814,8 @@
       ".jst"
     ],
     "tm_scope": "text.html.js",
+    "codemirror_mode": "htmlembedded",
+    "codemirror_mime_type": "application/x-ejs",
     "ace_mode": "ejs",
     "language_id": 95,
     "name": "EJS",
@@ -3196,14 +3188,13 @@
       ".fsx"
     ],
     "tm_scope": "source.fsharp",
-    "ace_mode": "text",
+    "ace_mode": "fsharp",
     "codemirror_mode": "mllike",
     "codemirror_mime_type": "text/x-fsharp",
     "language_id": 105,
     "name": "F#",
     "icons": [
-      "fsharp",
-      "document"
+      "fsharp"
     ]
   },
   "F*": {
@@ -3449,14 +3440,13 @@
       ".fpp"
     ],
     "tm_scope": "source.fortran",
-    "ace_mode": "text",
+    "ace_mode": "fortran",
     "codemirror_mode": "fortran",
     "codemirror_mime_type": "text/x-fortran",
     "language_id": 107,
     "name": "Fortran",
     "icons": [
-      "fortran",
-      "document"
+      "fortran"
     ]
   },
   "Fortran Free Form": {
@@ -3470,14 +3460,13 @@
       ".f95"
     ],
     "tm_scope": "source.fortran.modern",
-    "ace_mode": "text",
+    "ace_mode": "fortran",
     "codemirror_mode": "fortran",
     "codemirror_mime_type": "text/x-fortran",
     "language_id": 761352333,
     "name": "Fortran Free Form",
     "icons": [
-      "fortran",
-      "document"
+      "fortran"
     ]
   },
   "FreeBASIC": {
@@ -3962,16 +3951,17 @@
       ".story"
     ],
     "tm_scope": "text.gherkin.feature",
+    "codemirror_mode": "gherkin",
+    "codemirror_mime_type": "text/x-feature",
     "aliases": [
       "cucumber"
     ],
-    "ace_mode": "text",
+    "ace_mode": "gherkin",
     "color": "#5B2063",
     "language_id": 76,
     "name": "Gherkin",
     "icons": [
-      "cucumber",
-      "document"
+      "cucumber"
     ]
   },
   "Git Attributes": {
@@ -4351,12 +4341,11 @@
       ".graphqls"
     ],
     "tm_scope": "source.graphql",
-    "ace_mode": "text",
+    "ace_mode": "graphqlschema",
     "language_id": 139,
     "name": "GraphQL",
     "icons": [
-      "graphql",
-      "document"
+      "graphql"
     ]
   },
   "Graphviz (DOT)": {
@@ -4367,12 +4356,11 @@
       ".dot",
       ".gv"
     ],
-    "ace_mode": "text",
+    "ace_mode": "dot",
     "language_id": 140,
     "name": "Graphviz (DOT)",
     "icons": [
-      "dotjs",
-      "document"
+      "dotjs"
     ]
   },
   "Groovy": {
@@ -4450,7 +4438,7 @@
       "HashiCorp Configuration Language",
       "terraform"
     ],
-    "ace_mode": "ruby",
+    "ace_mode": "terraform",
     "codemirror_mode": "ruby",
     "codemirror_mime_type": "text/x-ruby",
     "tm_scope": "source.hcl",
@@ -4549,14 +4537,13 @@
     "extensions": [
       ".ecr"
     ],
-    "ace_mode": "text",
+    "ace_mode": "html_ruby",
     "codemirror_mode": "htmlmixed",
     "codemirror_mime_type": "text/html",
     "language_id": 148,
     "name": "HTML+ECR",
     "icons": [
-      "crystal",
-      "document"
+      "crystal"
     ]
   },
   "HTML+EEX": {
@@ -4574,14 +4561,13 @@
       ".heex",
       ".leex"
     ],
-    "ace_mode": "text",
+    "ace_mode": "html_elixir",
     "codemirror_mode": "htmlmixed",
     "codemirror_mime_type": "text/html",
     "language_id": 149,
     "name": "HTML+EEX",
     "icons": [
-      "elixir",
-      "document"
+      "elixir"
     ]
   },
   "HTML+ERB": {
@@ -4599,14 +4585,13 @@
       ".erb.deface",
       ".rhtml"
     ],
-    "ace_mode": "text",
+    "ace_mode": "html_ruby",
     "codemirror_mode": "htmlembedded",
     "codemirror_mime_type": "application/x-erb",
     "language_id": 150,
     "name": "HTML+ERB",
     "icons": [
-      "ruby",
-      "document"
+      "ruby"
     ]
   },
   "HTML+PHP": {
@@ -4673,6 +4658,8 @@
       ".hxml"
     ],
     "tm_scope": "source.hxml",
+    "codemirror_mode": "haxe",
+    "codemirror_mime_type": "text/x-hxml",
     "language_id": 786683730,
     "name": "HXML",
     "icons": [
@@ -5402,7 +5389,7 @@
       ".json5"
     ],
     "tm_scope": "source.js",
-    "ace_mode": "javascript",
+    "ace_mode": "json5",
     "codemirror_mode": "javascript",
     "codemirror_mime_type": "application/json",
     "language_id": 175,
@@ -5421,7 +5408,7 @@
     "tm_scope": "source.js",
     "ace_mode": "javascript",
     "codemirror_mode": "javascript",
-    "codemirror_mime_type": "application/json",
+    "codemirror_mime_type": "application/ld+json",
     "language_id": 176,
     "name": "JSONLD",
     "icons": [
@@ -5694,8 +5681,8 @@
     ],
     "tm_scope": "text.html.django",
     "ace_mode": "django",
-    "codemirror_mode": "django",
-    "codemirror_mime_type": "text/x-django",
+    "codemirror_mode": "jinja2",
+    "codemirror_mime_type": "text/jinja2",
     "language_id": 147,
     "name": "Jinja",
     "icons": [
@@ -6035,14 +6022,13 @@
       ".kts"
     ],
     "tm_scope": "source.kotlin",
-    "ace_mode": "text",
+    "ace_mode": "kotlin",
     "codemirror_mode": "clike",
     "codemirror_mime_type": "text/x-kotlin",
     "language_id": 189,
     "name": "Kotlin",
     "icons": [
-      "kotlin",
-      "document"
+      "kotlin"
     ]
   },
   "Kusto": {
@@ -6193,7 +6179,7 @@
       ".latte"
     ],
     "tm_scope": "text.html.smarty",
-    "ace_mode": "smarty",
+    "ace_mode": "latte",
     "codemirror_mode": "smarty",
     "codemirror_mime_type": "text/x-smarty",
     "language_id": 196,
@@ -6254,7 +6240,7 @@
     "tm_scope": "source.css.less",
     "ace_mode": "less",
     "codemirror_mode": "css",
-    "codemirror_mime_type": "text/css",
+    "codemirror_mime_type": "text/x-less",
     "language_id": 198,
     "name": "Less",
     "icons": [
@@ -6508,12 +6494,9 @@
       ".logtalk"
     ],
     "tm_scope": "source.logtalk",
-    "ace_mode": "text",
+    "ace_mode": "logtalk",
     "language_id": 210,
-    "name": "Logtalk",
-    "icons": [
-      "document"
-    ]
+    "name": "Logtalk"
   },
   "LookML": {
     "type": "programming",
@@ -7557,14 +7540,11 @@
       ".nsh"
     ],
     "tm_scope": "source.nsis",
-    "ace_mode": "text",
+    "ace_mode": "nsis",
     "codemirror_mode": "nsis",
     "codemirror_mime_type": "text/x-nsis",
     "language_id": 242,
-    "name": "NSIS",
-    "icons": [
-      "document"
-    ]
+    "name": "NSIS"
   },
   "NWScript": {
     "type": "programming",
@@ -7718,14 +7698,13 @@
     "aliases": [
       "nginx configuration file"
     ],
-    "ace_mode": "text",
+    "ace_mode": "nginx",
     "codemirror_mode": "nginx",
     "codemirror_mime_type": "text/x-nginx-conf",
     "language_id": 248,
     "name": "Nginx",
     "icons": [
-      "nginx",
-      "document"
+      "nginx"
     ]
   },
   "Nickel": {
@@ -7755,13 +7734,12 @@
     "filenames": [
       "nim.cfg"
     ],
-    "ace_mode": "text",
+    "ace_mode": "nim",
     "tm_scope": "source.nim",
     "language_id": 249,
     "name": "Nim",
     "icons": [
-      "nim",
-      "document"
+      "nim"
     ]
   },
   "Ninja": {
@@ -8135,7 +8113,7 @@
     ],
     "ace_mode": "objectivec",
     "codemirror_mode": "clike",
-    "codemirror_mime_type": "text/x-objectivec",
+    "codemirror_mime_type": "text/x-objectivec++",
     "language_id": 258,
     "name": "Objective-C++",
     "icons": [
@@ -8173,12 +8151,11 @@
       ".odin"
     ],
     "tm_scope": "source.odin",
-    "ace_mode": "text",
+    "ace_mode": "odin",
     "language_id": 889244082,
     "name": "Odin",
     "icons": [
-      "odin",
-      "document"
+      "odin"
     ]
   },
   "Omgrofl": {
@@ -8566,7 +8543,7 @@
   },
   "PLSQL": {
     "type": "programming",
-    "ace_mode": "sql",
+    "ace_mode": "plsql",
     "codemirror_mode": "sql",
     "codemirror_mime_type": "text/x-plsql",
     "tm_scope": "none",
@@ -8890,12 +8867,11 @@
       ".pig"
     ],
     "tm_scope": "source.pig_latin",
-    "ace_mode": "text",
+    "ace_mode": "pig",
+    "codemirror_mode": "pig",
+    "codemirror_mime_type": "text/x-pig",
     "language_id": 286,
-    "name": "PigLatin",
-    "icons": [
-      "document"
-    ]
+    "name": "PigLatin"
   },
   "Pike": {
     "type": "programming",
@@ -9157,12 +9133,11 @@
       ".prisma"
     ],
     "tm_scope": "source.prisma",
-    "ace_mode": "text",
+    "ace_mode": "prisma",
     "language_id": 499933428,
     "name": "Prisma",
     "icons": [
-      "prisma",
-      "document"
+      "prisma"
     ]
   },
   "Processing": {
@@ -9337,15 +9312,14 @@
     "filenames": [
       "Modulefile"
     ],
-    "ace_mode": "text",
+    "ace_mode": "puppet",
     "codemirror_mode": "puppet",
     "codemirror_mime_type": "text/x-puppet",
     "tm_scope": "source.puppet",
     "language_id": 299,
     "name": "Puppet",
     "icons": [
-      "puppet",
-      "document"
+      "puppet"
     ]
   },
   "Pure Data": {
@@ -9515,12 +9489,9 @@
       ".qbs"
     ],
     "tm_scope": "source.qml",
-    "ace_mode": "text",
+    "ace_mode": "qml",
     "language_id": 305,
-    "name": "QML",
-    "icons": [
-      "document"
-    ]
+    "name": "QML"
   },
   "QMake": {
     "type": "programming",
@@ -9883,7 +9854,7 @@
       "perl-6"
     ],
     "tm_scope": "source.raku",
-    "ace_mode": "perl",
+    "ace_mode": "raku",
     "codemirror_mode": "perl",
     "codemirror_mime_type": "text/x-perl",
     "language_id": 283,
@@ -10048,12 +10019,11 @@
       "red/system"
     ],
     "tm_scope": "source.red",
-    "ace_mode": "text",
+    "ace_mode": "red",
     "language_id": 320,
     "name": "Red",
     "icons": [
-      "red",
-      "document"
+      "red"
     ]
   },
   "Redcode": {
@@ -10202,12 +10172,11 @@
       ".resource"
     ],
     "tm_scope": "text.robot",
-    "ace_mode": "text",
+    "ace_mode": "robot",
     "language_id": 324,
     "name": "RobotFramework",
     "icons": [
-      "robot",
-      "document"
+      "robot"
     ]
   },
   "Roc": {
@@ -10566,7 +10535,7 @@
     "type": "data",
     "color": "#0C4597",
     "tm_scope": "source.sparql",
-    "ace_mode": "text",
+    "ace_mode": "sparql",
     "codemirror_mode": "sparql",
     "codemirror_mime_type": "application/sparql-query",
     "extensions": [
@@ -10574,10 +10543,7 @@
       ".rq"
     ],
     "language_id": 331,
-    "name": "SPARQL",
-    "icons": [
-      "document"
-    ]
+    "name": "SPARQL"
   },
   "SQF": {
     "type": "programming",
@@ -10731,7 +10697,7 @@
       ".svg"
     ],
     "tm_scope": "text.xml.svg",
-    "ace_mode": "xml",
+    "ace_mode": "svg",
     "codemirror_mode": "xml",
     "codemirror_mime_type": "text/xml",
     "language_id": 337,
@@ -11186,14 +11152,13 @@
       ".slim"
     ],
     "tm_scope": "text.slim",
-    "ace_mode": "text",
+    "ace_mode": "slim",
     "codemirror_mode": "slim",
     "codemirror_mime_type": "text/x-slim",
     "language_id": 350,
     "name": "Slim",
     "icons": [
-      "slim",
-      "document"
+      "slim"
     ]
   },
   "Slint": {
@@ -11281,7 +11246,7 @@
   },
   "Smithy": {
     "type": "programming",
-    "ace_mode": "text",
+    "ace_mode": "smithy",
     "codemirror_mode": "clike",
     "codemirror_mime_type": "text/x-csrc",
     "tm_scope": "source.smithy",
@@ -11290,10 +11255,7 @@
       ".smithy"
     ],
     "language_id": 1027892786,
-    "name": "Smithy",
-    "icons": [
-      "document"
-    ]
+    "name": "Smithy"
   },
   "Snakemake": {
     "type": "programming",
@@ -11389,7 +11351,7 @@
     "tm_scope": "source.nut",
     "ace_mode": "c_cpp",
     "codemirror_mode": "clike",
-    "codemirror_mime_type": "text/x-c++src",
+    "codemirror_mime_type": "text/x-squirrel",
     "language_id": 355,
     "name": "Squirrel"
   },
@@ -11423,7 +11385,7 @@
     "tm_scope": "source.ml",
     "ace_mode": "text",
     "codemirror_mode": "mllike",
-    "codemirror_mime_type": "text/x-ocaml",
+    "codemirror_mime_type": "text/x-sml",
     "language_id": 357,
     "name": "Standard ML",
     "icons": [
@@ -11509,6 +11471,8 @@
     ],
     "tm_scope": "source.stylus",
     "ace_mode": "stylus",
+    "codemirror_mode": "stylus",
+    "codemirror_mime_type": "text/x-styl",
     "language_id": 359,
     "name": "Stylus",
     "icons": [
@@ -11635,14 +11599,13 @@
       ".swift"
     ],
     "tm_scope": "source.swift",
-    "ace_mode": "text",
+    "ace_mode": "swift",
     "codemirror_mode": "swift",
     "codemirror_mime_type": "text/x-swift",
     "language_id": 362,
     "name": "Swift",
     "icons": [
-      "swift",
-      "document"
+      "swift"
     ]
   },
   "SystemVerilog": {
@@ -11764,7 +11727,7 @@
   "TSV": {
     "type": "data",
     "color": "#237346",
-    "ace_mode": "text",
+    "ace_mode": "tsv",
     "tm_scope": "source.generic-db",
     "extensions": [
       ".tsv",
@@ -11776,8 +11739,7 @@
     "language_id": 1035892117,
     "name": "TSV",
     "icons": [
-      "table",
-      "document"
+      "table"
     ]
   },
   "TSX": {
@@ -11788,14 +11750,13 @@
       ".tsx"
     ],
     "tm_scope": "source.tsx",
-    "ace_mode": "javascript",
+    "ace_mode": "tsx",
     "codemirror_mode": "jsx",
-    "codemirror_mime_type": "text/jsx",
+    "codemirror_mime_type": "text/typescript-jsx",
     "language_id": 94901924,
     "name": "TSX",
     "icons": [
-      "react_ts",
-      "javascript"
+      "react_ts"
     ]
   },
   "TXL": {
@@ -12182,14 +12143,11 @@
       ".ttl"
     ],
     "tm_scope": "source.turtle",
-    "ace_mode": "text",
+    "ace_mode": "turtle",
     "codemirror_mode": "turtle",
     "codemirror_mime_type": "text/turtle",
     "language_id": 376,
-    "name": "Turtle",
-    "icons": [
-      "document"
-    ]
+    "name": "Turtle"
   },
   "Twig": {
     "type": "markup",
@@ -12460,14 +12418,13 @@
       ".vbs"
     ],
     "tm_scope": "source.vbnet",
-    "ace_mode": "text",
+    "ace_mode": "vbscript",
     "codemirror_mode": "vbscript",
     "codemirror_mime_type": "text/vbscript",
     "language_id": 408016005,
     "name": "VBScript",
     "icons": [
-      "visualstudio",
-      "document"
+      "visualstudio"
     ]
   },
   "VCL": {
@@ -12739,12 +12696,13 @@
       ".vue"
     ],
     "tm_scope": "source.vue",
-    "ace_mode": "html",
+    "ace_mode": "vue",
+    "codemirror_mode": "vue",
+    "codemirror_mime_type": "text/x-vue",
     "language_id": 391,
     "name": "Vue",
     "icons": [
-      "vue",
-      "html"
+      "vue"
     ]
   },
   "Vyper": {
@@ -12847,8 +12805,8 @@
     ],
     "tm_scope": "source.webassembly",
     "ace_mode": "lisp",
-    "codemirror_mode": "commonlisp",
-    "codemirror_mime_type": "text/x-common-lisp",
+    "codemirror_mode": "wast",
+    "codemirror_mime_type": "text/webassembly",
     "language_id": 956556503,
     "name": "WebAssembly",
     "icons": [
@@ -12952,12 +12910,9 @@
       ".wikitext"
     ],
     "tm_scope": "text.html.mediawiki",
-    "ace_mode": "text",
+    "ace_mode": "mediawiki",
     "language_id": 228,
-    "name": "Wikitext",
-    "icons": [
-      "document"
-    ]
+    "name": "Wikitext"
   },
   "Win32 Message File": {
     "type": "data",
@@ -13011,13 +12966,10 @@
     "extensions": [
       ".wlk"
     ],
-    "ace_mode": "text",
+    "ace_mode": "wollok",
     "tm_scope": "source.wollok",
     "language_id": 632745969,
-    "name": "Wollok",
-    "icons": [
-      "document"
-    ]
+    "name": "Wollok"
   },
   "World of Warcraft Addon Data": {
     "type": "data",
@@ -13639,12 +13591,9 @@
       ".bro"
     ],
     "tm_scope": "source.zeek",
-    "ace_mode": "text",
+    "ace_mode": "zeek",
     "language_id": 40,
-    "name": "Zeek",
-    "icons": [
-      "document"
-    ]
+    "name": "Zeek"
   },
   "ZenScript": {
     "type": "programming",
@@ -13682,12 +13631,11 @@
       ".zig.zon"
     ],
     "tm_scope": "source.zig",
-    "ace_mode": "text",
+    "ace_mode": "zig",
     "language_id": 646424281,
     "name": "Zig",
     "icons": [
-      "zig",
-      "document"
+      "zig"
     ]
   },
   "Zimpl": {
@@ -13808,7 +13756,7 @@
     "type": "data",
     "ace_mode": "clojure",
     "codemirror_mode": "clojure",
-    "codemirror_mime_type": "text/x-clojure",
+    "codemirror_mime_type": "application/edn",
     "extensions": [
       ".edn"
     ],
@@ -14025,6 +13973,8 @@
     ],
     "tm_scope": "source.q",
     "ace_mode": "text",
+    "codemirror_mode": "q",
+    "codemirror_mime_type": "text/x-q",
     "color": "#0040cd",
     "language_id": 970539067,
     "name": "q",
@@ -14046,15 +13996,14 @@
       ".rst.txt"
     ],
     "tm_scope": "text.restructuredtext",
-    "ace_mode": "text",
+    "ace_mode": "rst",
     "codemirror_mode": "rst",
     "codemirror_mime_type": "text/x-rst",
     "language_id": 419,
     "name": "reStructuredText",
     "icons": [
       "markdown",
-      "http",
-      "document"
+      "http"
     ]
   },
   "robots.txt": {
