@@ -1321,6 +1321,22 @@
       "haskell"
     ]
   },
+  "C3": {
+    "type": "programming",
+    "color": "#2563eb",
+    "extensions": [
+      ".c3"
+    ],
+    "tm_scope": "source.c3",
+    "ace_mode": "c_cpp",
+    "codemirror_mode": "clike",
+    "codemirror_mime_type": "text/x-csrc",
+    "language_id": 769248603,
+    "name": "C3",
+    "icons": [
+      "c3"
+    ]
+  },
   "CAP CDS": {
     "type": "programming",
     "tm_scope": "source.cds",
@@ -9720,6 +9736,26 @@
       "rust"
     ]
   },
+  "ROS Interface": {
+    "type": "data",
+    "color": "#22314e",
+    "aliases": [
+      "rosmsg"
+    ],
+    "ace_mode": "text",
+    "extensions": [
+      ".msg",
+      ".action",
+      ".srv"
+    ],
+    "tm_scope": "source.rosmsg",
+    "language_id": 809230569,
+    "name": "ROS Interface",
+    "icons": [
+      "email",
+      "document"
+    ]
+  },
   "RPC": {
     "type": "programming",
     "aliases": [
@@ -12433,7 +12469,7 @@
     "extensions": [
       ".vcl"
     ],
-    "tm_scope": "source.varnish.vcl",
+    "tm_scope": "source.vcl",
     "ace_mode": "text",
     "language_id": 384,
     "name": "VCL",
