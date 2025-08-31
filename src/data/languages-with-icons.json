@@ -2131,6 +2131,21 @@
       "cpp"
     ]
   },
+  "Cooklang": {
+    "type": "markup",
+    "color": "#E15A29",
+    "wrap": true,
+    "extensions": [
+      ".cook"
+    ],
+    "ace_mode": "text",
+    "tm_scope": "source.cooklang",
+    "language_id": 788037493,
+    "name": "Cooklang",
+    "icons": [
+      "document"
+    ]
+  },
   "Cool": {
     "type": "programming",
     "extensions": [
@@ -9559,6 +9574,20 @@
     "tm_scope": "source.quake",
     "language_id": 375265331,
     "name": "Quake",
+    "icons": [
+      "document"
+    ]
+  },
+  "QuakeC": {
+    "type": "programming",
+    "extensions": [
+      ".qc"
+    ],
+    "color": "#975777",
+    "ace_mode": "text",
+    "tm_scope": "source.quakec",
+    "language_id": 472308069,
+    "name": "QuakeC",
     "icons": [
       "document"
     ]
