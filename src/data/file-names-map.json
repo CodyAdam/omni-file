@@ -37,6 +37,7 @@
   ".env.production": "Dotenv",
   ".env.sample": "Dotenv",
   ".env.staging": "Dotenv",
+  ".env.template": "Dotenv",
   ".env.test": "Dotenv",
   ".env.testing": "Dotenv",
   "dune-project": "Dune",
