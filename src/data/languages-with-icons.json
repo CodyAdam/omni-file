@@ -1184,6 +1184,21 @@
       "document"
     ]
   },
+  "Bru": {
+    "type": "markup",
+    "color": "#F4AA41",
+    "extensions": [
+      ".bru"
+    ],
+    "tm_scope": "source.bru",
+    "ace_mode": "text",
+    "language_id": 906627898,
+    "name": "Bru",
+    "icons": [
+      "bruno",
+      "document"
+    ]
+  },
   "BuildStream": {
     "type": "data",
     "color": "#006bff",
@@ -3406,6 +3421,17 @@
       "fsharp",
       "document"
     ]
+  },
+  "Flix": {
+    "type": "programming",
+    "color": "#d44a45",
+    "extensions": [
+      ".flix"
+    ],
+    "tm_scope": "source.flix",
+    "ace_mode": "flix",
+    "language_id": 800935960,
+    "name": "Flix"
   },
   "Fluent": {
     "type": "programming",
@@ -6029,6 +6055,20 @@
       "html"
     ]
   },
+  "KoLMafia ASH": {
+    "type": "programming",
+    "color": "#B9D9B9",
+    "extensions": [
+      ".ash"
+    ],
+    "tm_scope": "source.ash",
+    "ace_mode": "text",
+    "language_id": 852099832,
+    "name": "KoLMafia ASH",
+    "icons": [
+      "document"
+    ]
+  },
   "Koka": {
     "type": "programming",
     "ace_mode": "text",
@@ -6235,6 +6275,9 @@
   "Lean 4": {
     "type": "programming",
     "group": "Lean",
+    "aliases": [
+      "lean4"
+    ],
     "extensions": [
       ".lean"
     ],

@@ -971,6 +971,17 @@
     "language_id": 153503348,
     "name": "Browserslist"
   },
+  "Bru": {
+    "type": "markup",
+    "color": "#F4AA41",
+    "extensions": [
+      ".bru"
+    ],
+    "tm_scope": "source.bru",
+    "ace_mode": "text",
+    "language_id": 906627898,
+    "name": "Bru"
+  },
   "BuildStream": {
     "type": "data",
     "color": "#006bff",
@@ -2822,6 +2833,17 @@
     "ace_mode": "text",
     "language_id": 112,
     "name": "Filterscript"
+  },
+  "Flix": {
+    "type": "programming",
+    "color": "#d44a45",
+    "extensions": [
+      ".flix"
+    ],
+    "tm_scope": "source.flix",
+    "ace_mode": "flix",
+    "language_id": 800935960,
+    "name": "Flix"
   },
   "Fluent": {
     "type": "programming",
@@ -4992,6 +5014,17 @@
     "language_id": 188,
     "name": "Kit"
   },
+  "KoLMafia ASH": {
+    "type": "programming",
+    "color": "#B9D9B9",
+    "extensions": [
+      ".ash"
+    ],
+    "tm_scope": "source.ash",
+    "ace_mode": "text",
+    "language_id": 852099832,
+    "name": "KoLMafia ASH"
+  },
   "Koka": {
     "type": "programming",
     "ace_mode": "text",
@@ -5166,6 +5199,9 @@
   "Lean 4": {
     "type": "programming",
     "group": "Lean",
+    "aliases": [
+      "lean4"
+    ],
     "extensions": [
       ".lean"
     ],
