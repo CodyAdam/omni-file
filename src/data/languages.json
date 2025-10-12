@@ -489,6 +489,19 @@
     "language_id": 20,
     "name": "Arc"
   },
+  "ArkTS": {
+    "type": "programming",
+    "color": "#0080ff",
+    "extensions": [
+      ".ets"
+    ],
+    "tm_scope": "source.ets",
+    "ace_mode": "typescript",
+    "codemirror_mode": "javascript",
+    "codemirror_mime_type": "application/typescript",
+    "language_id": 56341321,
+    "name": "ArkTS"
+  },
   "AsciiDoc": {
     "type": "prose",
     "color": "#73a0c5",
@@ -698,6 +711,10 @@
     "extensions": [
       ".bat",
       ".cmd"
+    ],
+    "filenames": [
+      "gradlew.bat",
+      "mvnw.cmd"
     ],
     "tm_scope": "source.batchfile",
     "ace_mode": "batchfile",
@@ -1344,6 +1361,19 @@
     "group": "LigoLANG",
     "language_id": 829207807,
     "name": "CameLIGO"
+  },
+  "Cangjie": {
+    "type": "programming",
+    "tm_scope": "source.cj",
+    "extensions": [
+      ".cj"
+    ],
+    "color": "#00868B",
+    "ace_mode": "swift",
+    "codemirror_mode": "swift",
+    "codemirror_mime_type": "text/x-swift",
+    "language_id": 581895317,
+    "name": "Cangjie"
   },
   "Cap'n Proto": {
     "type": "programming",
@@ -3349,6 +3379,21 @@
     "language_id": 956324166,
     "name": "Git Attributes"
   },
+  "Git Commit": {
+    "type": "data",
+    "color": "#F44D27",
+    "aliases": [
+      "commit"
+    ],
+    "filenames": [
+      "COMMIT_EDITMSG"
+    ],
+    "ace_mode": "text",
+    "tm_scope": "text.git-commit",
+    "wrap": true,
+    "language_id": 131750475,
+    "name": "Git Commit"
+  },
   "Git Config": {
     "type": "data",
     "color": "#F44D27",
@@ -4052,6 +4097,17 @@
     "ace_mode": "text",
     "language_id": 231021894,
     "name": "Hosts File"
+  },
+  "Hurl": {
+    "type": "programming",
+    "color": "#FF0288",
+    "extensions": [
+      ".hurl"
+    ],
+    "tm_scope": "source.hurl",
+    "ace_mode": "text",
+    "language_id": 959040217,
+    "name": "Hurl"
   },
   "Hy": {
     "type": "programming",
@@ -5014,7 +5070,7 @@
     "language_id": 188,
     "name": "Kit"
   },
-  "KoLMafia ASH": {
+  "KoLmafia ASH": {
     "type": "programming",
     "color": "#B9D9B9",
     "extensions": [
@@ -5023,7 +5079,7 @@
     "tm_scope": "source.ash",
     "ace_mode": "text",
     "language_id": 852099832,
-    "name": "KoLMafia ASH"
+    "name": "KoLmafia ASH"
   },
   "Koka": {
     "type": "programming",
@@ -9166,6 +9222,8 @@
       ".login",
       ".profile",
       ".tmux.conf",
+      ".xinitrc",
+      ".xsession",
       ".zlogin",
       ".zlogout",
       ".zprofile",
@@ -9182,8 +9240,11 @@
       "kshrc",
       "login",
       "man",
+      "mvnw",
       "profile",
       "tmux.conf",
+      "xinitrc",
+      "xsession",
       "zlogin",
       "zlogout",
       "zprofile",
@@ -9941,6 +10002,22 @@
     "ace_mode": "text",
     "language_id": 370,
     "name": "Tea"
+  },
+  "Teal": {
+    "type": "programming",
+    "extensions": [
+      ".tl"
+    ],
+    "color": "#00B1BC",
+    "tm_scope": "source.teal",
+    "ace_mode": "lua",
+    "codemirror_mode": "lua",
+    "codemirror_mime_type": "text/x-lua",
+    "interpreters": [
+      "tl"
+    ],
+    "language_id": 719038619,
+    "name": "Teal"
   },
   "Terra": {
     "type": "programming",
