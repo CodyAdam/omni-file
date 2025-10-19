@@ -198,6 +198,7 @@
   "cpanfile": "Perl",
   "latexmkrc": "Perl",
   "requirements-dev.txt": "Pip Requirements",
+  "requirements.lock.txt": "Pip Requirements",
   "requirements.txt": "Pip Requirements",
   "Procfile": "Procfile",
   "Modulefile": "Puppet",
