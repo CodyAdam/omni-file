@@ -4297,6 +4297,31 @@
       "document"
     ]
   },
+  "Go Template": {
+    "type": "markup",
+    "color": "#00ADD8",
+    "aliases": [
+      "gotmpl"
+    ],
+    "extensions": [
+      ".gohtml",
+      ".gotmpl",
+      ".html.tmpl",
+      ".tmpl",
+      ".tpl"
+    ],
+    "filenames": [
+      "_helpers.tpl"
+    ],
+    "tm_scope": "source.go-template",
+    "ace_mode": "text",
+    "language_id": 247918769,
+    "name": "Go Template",
+    "icons": [
+      "smarty",
+      "document"
+    ]
+  },
   "Go Workspace": {
     "type": "data",
     "color": "#00ADD8",
@@ -5481,7 +5506,8 @@
       ".sublime-theme",
       ".sublime-workspace",
       ".sublime_metrics",
-      ".sublime_session"
+      ".sublime_session",
+      ".tsconfig.json"
     ],
     "filenames": [
       ".babelrc",
@@ -5490,6 +5516,7 @@
       ".jscsrc",
       ".jshintrc",
       ".jslintrc",
+      ".oxlintrc.json",
       ".swcrc",
       "api-extractor.json",
       "devcontainer.json",
@@ -5962,6 +5989,25 @@
       "document"
     ]
   },
+  "KCL": {
+    "type": "programming",
+    "color": "#7ABABF",
+    "tm_scope": "source.kcl",
+    "extensions": [
+      ".k"
+    ],
+    "filenames": [
+      "kcl.mod",
+      "kcl.mod.lock"
+    ],
+    "ace_mode": "text",
+    "language_id": 1052003890,
+    "name": "KCL",
+    "icons": [
+      "kcl",
+      "document"
+    ]
+  },
   "KDL": {
     "type": "data",
     "color": "#ffb3b3",
@@ -5974,6 +6020,21 @@
     "codemirror_mime_type": "text/x-yacas",
     "language_id": 931123626,
     "name": "KDL"
+  },
+  "KFramework": {
+    "type": "programming",
+    "color": "#4195c5",
+    "tm_scope": "text.k",
+    "extensions": [
+      ".k"
+    ],
+    "ace_mode": "text",
+    "language_id": 9479532,
+    "name": "KFramework",
+    "icons": [
+      "kcl",
+      "document"
+    ]
   },
   "KRL": {
     "type": "programming",
@@ -6277,6 +6338,20 @@
     "name": "LabVIEW",
     "icons": [
       "xml"
+    ]
+  },
+  "Langium": {
+    "type": "programming",
+    "color": "#2c8c87",
+    "extensions": [
+      ".langium"
+    ],
+    "tm_scope": "source.langium",
+    "ace_mode": "text",
+    "language_id": 548603830,
+    "name": "Langium",
+    "icons": [
+      "document"
     ]
   },
   "Lark": {
@@ -6696,7 +6771,8 @@
       ".luacheckrc"
     ],
     "interpreters": [
-      "lua"
+      "lua",
+      "luajit"
     ],
     "language_id": 213,
     "name": "Lua",
@@ -9007,6 +9083,7 @@
     "type": "data",
     "color": "#FFD343",
     "filenames": [
+      "dev-requirements.txt",
       "requirements-dev.txt",
       "requirements.lock.txt",
       "requirements.txt"
@@ -9678,7 +9755,8 @@
     "type": "programming",
     "color": "#008080",
     "extensions": [
-      ".bas"
+      ".bas",
+      ".bi"
     ],
     "tm_scope": "source.QB64",
     "aliases": [
