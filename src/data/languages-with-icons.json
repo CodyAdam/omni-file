@@ -1494,6 +1494,20 @@
       "xml"
     ]
   },
+  "CQL": {
+    "type": "programming",
+    "color": "#006091",
+    "extensions": [
+      ".cql"
+    ],
+    "tm_scope": "source.cql",
+    "ace_mode": "text",
+    "language_id": 71155397,
+    "name": "CQL",
+    "icons": [
+      "document"
+    ]
+  },
   "CSON": {
     "type": "data",
     "color": "#244776",
@@ -7193,6 +7207,20 @@
     "language_id": 223,
     "name": "Mask"
   },
+  "Mathematical Programming System": {
+    "type": "programming",
+    "color": "#0530ad",
+    "extensions": [
+      ".mps"
+    ],
+    "tm_scope": "text.source.mps",
+    "ace_mode": "text",
+    "language_id": 429002699,
+    "name": "Mathematical Programming System",
+    "icons": [
+      "document"
+    ]
+  },
   "Maven POM": {
     "type": "data",
     "group": "XML",
@@ -10854,7 +10882,6 @@
     "codemirror_mime_type": "text/x-sql",
     "extensions": [
       ".sql",
-      ".cql",
       ".ddl",
       ".inc",
       ".mysql",
@@ -11975,6 +12002,23 @@
       "document"
     ]
   },
+  "TMDL": {
+    "type": "data",
+    "color": "#f0c913",
+    "extensions": [
+      ".tmdl"
+    ],
+    "aliases": [
+      "Tabular Model Definition Language"
+    ],
+    "tm_scope": "source.tmdl",
+    "ace_mode": "text",
+    "language_id": 769162295,
+    "name": "TMDL",
+    "icons": [
+      "document"
+    ]
+  },
   "TOML": {
     "type": "data",
     "color": "#9c4221",
@@ -13025,7 +13069,7 @@
     "extensions": [
       ".vue"
     ],
-    "tm_scope": "source.vue",
+    "tm_scope": "text.html.vue",
     "ace_mode": "vue",
     "codemirror_mode": "vue",
     "codemirror_mime_type": "text/x-vue",
